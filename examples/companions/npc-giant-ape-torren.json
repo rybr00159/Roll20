@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "Giant Ape (Torren summon reference)",
+  "size": "Huge",
+  "creature_type": "beast",
+  "alignment": "Unaligned",
+  "challenge": "7",
+  "xp": 2900,
+  "abilities": {
+    "strength": 23,
+    "dexterity": 14,
+    "constitution": 18,
+    "intelligence": 7,
+    "wisdom": 12,
+    "charisma": 7
+  },
+  "hp": {
+    "max": 157,
+    "formula": "15d12+60"
+  },
+  "ac": {
+    "value": 12
+  },
+  "speed": "40 ft., climb 40 ft.",
+  "skills": {
+    "athletics": 9,
+    "perception": 4
+  },
+  "senses": "passive Perception 14",
+  "languages": "None; the summoning feature separately grants obedience to verbal commands.",
+  "bio": "Original Monster Manual Giant Ape reference for Call of the Beast Lord. No ape begins play for free. Spend five maneuver points, maintain maneuver concentration and respect the 10-minute duration. One reference character can represent the current summoned token.",
+  "traits": [
+    {
+      "name": "Summon limits",
+      "description": "Acts immediately after Torren on the same initiative, takes verbal commands without an action, and disappears at 0 HP, when duration ends or when maneuver concentration ends."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "Makes two fist attacks; this does not grant two rock attacks."
+    },
+    {
+      "name": "Fist",
+      "description": "",
+      "attack": {
+        "to_hit": 9,
+        "kind": "Melee",
+        "range": "10 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "3d10+6",
+          "type": "bludgeoning"
+        }
+      }
+    },
+    {
+      "name": "Rock",
+      "description": "",
+      "attack": {
+        "to_hit": 9,
+        "kind": "Ranged",
+        "range": "50/100 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "7d6+6",
+          "type": "bludgeoning"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Isolde Mournsong",
+  "class": "Bard",
+  "subclass": "College of Requiems",
+  "level": 7,
+  "race": "Custom Lineage (Medium humanoid)",
+  "background": "Entertainer (PHB 2014; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 19,
+    "intelligence": 12,
+    "wisdom": 13,
+    "charisma": 20
+  },
+  "hp": {
+    "max": 66,
+    "current": 66,
+    "temp": 0
+  },
+  "ac": {
+    "value": 14,
+    "type": "Studded leather 12 + Dex 2"
+  },
+  "speed": "30 ft.",
+  "saving_throws": [
+    "dexterity",
+    "charisma"
+  ],
+  "skills": {
+    "acrobatics": "proficient",
+    "performance": "proficient",
+    "persuasion": "expertise",
+    "insight": "expertise",
+    "deception": "proficient",
+    "perception": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Elvish",
+  "proficiencies": "Light armor; simple weapons, hand crossbows, longswords, rapiers, shortswords. Lute, viol, horn, flute, disguise kit. Jack of All Trades applies to untrained ability checks, not saves.",
+  "bio": "A funeral singer who remembers the name of every person whose bones she has ever commanded. Isolde believes the dead deserve both dignity and a chance to defend the living. Bond: recover a stolen book of burial names. Flaw: treats a promise made at a graveside as unbreakable.\n\nEnter 368 gp. Enable Jack of All Trades so initiative is +3 and untrained ability checks gain +1. Mark Amulet of Health and Doss Lute attuned. Apply War Caster concentration advantage manually. No undead exist initially; track their 24-hour control and actual equipment separately.\n\nRemaining gold: 368 gp. See the companion build guide for full progression, equipment ledger and feature timing.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "2014 Bard 7. Standard array Str/Dex/Con/Int/Wis/Cha: 10/14/8/12/13/15. Lineage +2 Cha; racial Fey Touched +1 Cha; Bard 4 +2 Cha. Amulet sets native Con 8 to 19. Native stats: 10/14/8/12/13/20. Equipped stats: 10/14/19/12/13/20. HP 66: first Hit Die maximum, six fixed average increases and Constitution at all seven levels.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Background Entertainer is the original PHB version and grants no feat. House-rule starting feat: War Caster, which gives no ability-score increase. Any racial half-feat is a separate racial choice, not the house feat. One rare and one uncommon magic item only. Additional 638 gp plus 15 gp background money; purchases 285 gp; remaining 368 gp. No resale or pre-existing summons assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Custom Lineage and feat provenance",
+      "description": "Lineage +2 Charisma plus racial Fey Touched +1 Charisma; Bard 4 adds +2 Charisma. House feat War Caster has no stat increase. Variable Trait is Perception proficiency, not darkvision.",
+      "source": "TCE; PHB 2014"
+    },
+    {
+      "name": "Fey Touched",
+      "description": "Choose Charisma, Misty Step and Silvery Barbs. Each spell has one free cast per long rest and can also use appropriate slots. These spells do not count against the ten bard spells known. Silvery Barbs is the official Strixhaven enchantment spell.",
+      "source": "TCE; SCC"
+    },
+    {
+      "name": "War Caster",
+      "description": "Advantage on Constitution saves to maintain spell concentration when taking damage; can perform somatic components with weapons/shield in hand; can replace a provoked opportunity attack with a one-action spell targeting only the provoking creature. Does not grant advantage on every Constitution save.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Chilling Melody",
+      "description": "Two bonus necromancy cantrips count as bard spells: Toll the Dead and Chill Touch, using Charisma. These are additional to the three normal bard cantrips.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Pluck the Heartstrings",
+      "description": "An ally with your Bardic Inspiration can expend its die for extra necrotic weapon damage. A living creature with your die reduced to 0 HP may expend it as a reaction to be reduced to 1 HP instead. These are additional ways to spend the SAME die, not free extra dice.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Stir the Bones",
+      "description": "Learn Animate Dead as an extra bard spell. When giving a Bardic Inspiration die, choose up to THREE controlled undead within 60 feet to each receive a Dirge die for 10 minutes, and issue mental commands as part of that bonus action. A Dirge die used to turn an attack into a hit can also add its result to damage. No undead or remains are assumed at character creation.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Bardic Inspiration and recovery",
+      "description": "Five d8 Bardic Inspiration uses per short/long rest from Charisma 20 and Font of Inspiration. Bonus action, target other than yourself within 60 feet who can hear you. A die lasts 10 minutes. Song of Rest adds 1d6 when eligible creatures spend Hit Dice during a short rest. Countercharm uses an action and the 2014 rules.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Jack of All Trades and expertise",
+      "description": "Enable Jack of All Trades after import: +1 to ability checks that do not already include proficiency, including initiative (total +3) and Dispel Magic checks (total +6). Expertise in Persuasion and Insight is already imported.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Amulet of Health",
+      "description": "Attuned; SETS Constitution to 19. Native Constitution is 8. Equipped HP 66; without the amulet maximum HP is 31 and Constitution modifier is -1. This is an item-dependent level-7 build, not a permanent stat increase.",
+      "source": "DMG 2014"
+    },
+    {
+      "name": "Doss Lute",
+      "description": "Attuned bard instrument. Play while casting Hypnotic Pattern to impose disadvantage on its DC 16 Wisdom save. This applies to spells that actually impose the charmed condition and have S or M components; it does not apply to every enchantment, Suggestion or Silvery Barbs. Seven attached spells can each be cast from the lute once per dawn, without slots, using its action activation.",
+      "source": "DMG 2014 p.176"
+    },
+    {
+      "name": "Spell inventory",
+      "description": "Ten normal bard spells known, plus Animate Dead from the subclass, two Fey Touched spells, three normal bard cantrips and two subclass cantrips. Seven item-only spell cards are NOT additional known spells and cannot be cast with slots unless independently learned. Slots 4/3/3/1; spell attacks +8 and spell DC 16.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Magical Inspiration",
+      "description": "Optional Tasha feature: an ally with your Bardic Inspiration die that casts a damage or healing spell can expend the die to add it to the damage or healing for ONE affected target. The same die cannot also be spent on another Inspiration benefit.",
+      "source": "TCE p.27"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Chill Touch",
+      "to_hit": 8,
+      "kind": "Ranged",
+      "range": "120 ft.",
+      "damage": {
+        "dice": "2d8",
+        "type": "necrotic"
+      },
+      "description": "Cast the cantrip; blocks healing on a hit. Spell attack, not a weapon attack."
+    },
+    {
+      "name": "Rapier",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d8+2",
+        "type": "piercing"
+      },
+      "description": ""
+    },
+    {
+      "name": "Dagger",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "5 ft. or thrown 20/60 ft.",
+      "damage": {
+        "dice": "1d4+2",
+        "type": "piercing"
+      },
+      "description": ""
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Amulet of Health",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Rare allocation; attuned. Native Con 8, equipped Con 19."
+    },
+    {
+      "name": "Instrument of the Bards, Doss Lute",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Uncommon allocation; attuned. Only this instrument supplies the item powers."
+    },
+    {
+      "name": "Rapier",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Free class starting weapon."
+    },
+    {
+      "name": "Leather Armor",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Free starting armor, spare and NOT worn."
+    },
+    {
+      "name": "Dagger",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free starting weapon."
+    },
+    {
+      "name": "Entertainer's Pack",
+      "quantity": 1,
+      "weight": 38,
+      "description": "Free class pack; contents included in weight."
+    },
+    {
+      "name": "Lute",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Free mundane class instrument; backup."
+    },
+    {
+      "name": "Entertainer background equipment",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Flute, admirer letter, costume, pouch; 15 gp already counted. Disguise kit proficiency does not grant a free disguise kit."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "quantity": 1,
+      "weight": 13,
+      "description": "Purchased: 45 gp each; 45 gp total. Worn, AC 12 + Dex 2."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased: 50 gp each; 100 gp total. "
+    },
+    {
+      "name": "Shortbow",
+      "quantity": 4,
+      "weight": 2,
+      "description": "Purchased: 25 gp each; 100 gp total. Stored to arm up to four future skeletons; no skeletons are present at the start."
+    },
+    {
+      "name": "Arrows (20)",
+      "quantity": 4,
+      "weight": 1,
+      "description": "Purchased: 1 gp each; 4 gp total. 80 arrows total for future servants."
+    },
+    {
+      "name": "Quiver",
+      "quantity": 4,
+      "weight": 1,
+      "description": "Purchased: 1 gp each; 4 gp total. "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased: 5 gp each; 5 gp total. "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Dagger",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 368,
+      "weight": 0.02,
+      "description": "368 gp remaining; set the sheet gold counter to this amount. This row is the same money, not extra."
+    }
+  ],
+  "spellcasting": {
+    "ability": "charisma",
+    "save_dc": 16,
+    "attack_bonus": 8,
+    "slots": {
+      "1": 4,
+      "2": 3,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "spells": [
+    {
+      "name": "Mage Hand",
+      "level": 0,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S",
+      "duration": "1 minute",
+      "description": "Create a spectral hand for simple object manipulation. Cannot attack, activate magic items, or carry more than 10 pounds."
+    },
+    {
+      "name": "Minor Illusion",
+      "level": 0,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "S, M",
+      "duration": "1 minute",
+      "description": "Create a sound or a static image of an object in a 5-foot cube. Physical interaction reveals an image; investigation uses the spell save DC.",
+      "materials": "a bit of fleece"
+    },
+    {
+      "name": "Vicious Mockery",
+      "level": 0,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Wisdom save DC 16. On failure, 2d4 psychic and disadvantage on its next attack before the end of its next turn; no damage on success."
+    },
+    {
+      "name": "Toll the Dead",
+      "level": 0,
+      "school": "necromancy",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Chilling Melody necromancy cantrip, using Charisma. DC 16 Wisdom save: 2d8 necrotic on failure, or 2d12 if the target is missing any HP; none on success."
+    },
+    {
+      "name": "Chill Touch",
+      "level": 0,
+      "school": "necromancy",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "1 round",
+      "description": "Chilling Melody necromancy cantrip. Ranged spell attack +8; 2d8 necrotic. On a hit the target cannot regain HP until your next turn; an undead target also has disadvantage on attacks against you until the end of your next turn."
+    },
+    {
+      "name": "Healing Word",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 bonus action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Bonus action; heal a visible living creature 1d4+5 HP. The 2014 bonus-action spell restriction applies to other spells cast on this turn.",
+      "prepared": true
+    },
+    {
+      "name": "Dissonant Whispers",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "DC 16 Wisdom save; 3d6 psychic on failure and immediate movement away using its reaction if available, avoiding obviously dangerous ground. Half damage and no movement on success. This uses the target's reaction and can provoke opportunity attacks.",
+      "prepared": true
+    },
+    {
+      "name": "Faerie Fire",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Up to 1 minute",
+      "description": "Outline objects and creatures in a 20-foot cube. DC 16 Dexterity save to avoid. Attacks against an affected target have advantage if the attacker can see it; it cannot benefit from invisibility. Concentration.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Aid",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "8 hours",
+      "description": "Up to three creatures gain 5 current and maximum HP for 8 hours, with +5 more per slot level above 2nd. Not temporary HP and not concentration. No Aid bonus is applied to the starting sheet. Bard access uses the optional expanded spell list from Tasha.",
+      "materials": "a tiny strip of white cloth",
+      "prepared": true
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Touch a creature and end one disease or one instance of blindness, deafness, paralysis, or poisoning.",
+      "prepared": true
+    },
+    {
+      "name": "Suggestion",
+      "level": 2,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, M",
+      "duration": "Up to 8 hours",
+      "description": "Give a reasonable-sounding course of action to a creature that hears and understands you. Wisdom save against your spell DC; charm-immune creatures are immune. Concentration. The 2014 spell does not explicitly apply the charmed condition, so do not assume the lute imposes save disadvantage on this spell.",
+      "concentration": true,
+      "materials": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+      "prepared": true
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "level": 3,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "S, M",
+      "duration": "Up to 1 minute",
+      "description": "DC 16 Wisdom save in a 30-foot cube. Affected creatures are charmed, incapacitated and have speed 0. Damage or another creature's action to shake them ends the effect. Concentration. Playing the attuned Doss lute while casting imposes disadvantage on this save. Charm-immune creatures are unaffected.",
+      "concentration": true,
+      "materials": "a glowing stick of incense or a crystal vial filled with phosphorescent material",
+      "prepared": true
+    },
+    {
+      "name": "Dispel Magic",
+      "level": 3,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Automatically end spells of level 3 or lower. For a higher-level spell, make a Charisma ability check at +6 including Jack of All Trades, against DC 10 + spell level. Upcasting raises the level automatically ended.",
+      "prepared": true
+    },
+    {
+      "name": "Polymorph",
+      "level": 4,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Transform a creature into a beast whose CR is no higher than its CR or character level. An unwilling target makes a Wisdom save DC 16. Use the 2014 replacement-statistics, equipment and reversion rules. Concentration.",
+      "concentration": true,
+      "materials": "a caterpillar cocoon",
+      "prepared": true
+    },
+    {
+      "name": "Dimension Door",
+      "level": 4,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "500 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Teleport yourself, and optionally one willing creature of your size or smaller with its gear, up to 500 feet. The passenger must be within 5 feet. An occupied destination prevents the teleport and causes damage as in the full spell.",
+      "prepared": true
+    },
+    {
+      "name": "Animate Dead",
+      "level": 3,
+      "school": "necromancy",
+      "casting_time": "1 minute",
+      "range": "10 ft.",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Stir the Bones grants this spell in addition to the ten normal bard spells known. A 3rd-level casting raises ONE eligible corpse/pile of bones, or renews control over up to FOUR existing servants for 24 hours. A 4th-level casting adds two targets. Requires actual eligible remains; no undead begin the game for free. The purchased shortbows and arrows can arm up to four skeletons. No concentration.",
+      "materials": "a drop of blood, a piece of flesh, and a pinch of bone dust",
+      "prepared": true
+    },
+    {
+      "name": "Misty Step",
+      "level": 2,
+      "school": "conjuration",
+      "casting_time": "1 bonus action",
+      "range": "Self",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Fey Touched spell. Bonus-action teleport up to 30 feet to an unoccupied space you can see. One free casting per long rest; can also use slots. Not part of the ten bard spells known.",
+      "prepared": true
+    },
+    {
+      "name": "Silvery Barbs",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 reaction, when a visible creature within 60 ft. succeeds on an attack, check or save",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Fey Touched choice, original Strixhaven spell. Reaction when a visible creature within 60 feet succeeds on an attack, check or save: it rerolls the d20 and uses the lower result. Give a different visible creature within 60 feet, possibly yourself, advantage on its next attack/check/save within 1 minute. One free casting per long rest, then slots. No concentration and no charmed condition.",
+      "prepared": true
+    },
+    {
+      "name": "Fly (Doss lute)",
+      "level": 3,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "",
+      "duration": "Up to 10 minutes",
+      "description": "Touch a willing creature; it gains a 60-foot flying speed for up to 10 minutes. Concentration. This card is an item-only casting from the Doss lute, not an additional bard spell known. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "Invisibility (Doss lute)",
+      "level": 2,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "",
+      "duration": "Up to 1 hour",
+      "description": "Touch a creature, making it and worn/carried items invisible until it attacks or casts a spell, or duration ends. Concentration. Item-only Doss lute casting. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "Levitate (Doss lute)",
+      "level": 2,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "",
+      "duration": "Up to 10 minutes",
+      "description": "Raise one eligible creature or object vertically and control its height as described by the spell. An unwilling creature gets a Constitution save DC 16. Concentration. Item-only Doss lute casting. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "Protection from Evil and Good (Doss lute)",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "",
+      "duration": "Up to 10 minutes",
+      "description": "A willing creature is protected from aberrations, celestials, elementals, fey, fiends and undead: their attacks have disadvantage, and they cannot charm, frighten or possess it. Concentration. This is the Doss lute item-only casting; no consumed holy water is needed for this magic-item activation. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "Animal Friendship (Doss lute)",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "",
+      "duration": "24 hours",
+      "description": "One beast with Intelligence below 4 makes a Wisdom save DC 16 or is charmed by you for 24 hours, ending if you or a companion harm it. Playing the attuned lute imposes disadvantage on this save. Item-only Doss lute casting. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "prepared": false
+    },
+    {
+      "name": "Protection from Energy (Doss lute)",
+      "level": 3,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "",
+      "duration": "Up to 1 hour",
+      "description": "Doss lute version can protect only against FIRE: touch a willing creature to grant fire resistance. Concentration. Item-only casting. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "Protection from Poison (Doss lute)",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "",
+      "duration": "1 hour",
+      "description": "Touch a creature to neutralize one poison affecting it; for 1 hour it has advantage on saves against poison and resistance to poison damage. Item-only Doss lute casting. Activate by playing the attuned lute as an action. This spell can be cast from it once per dawn, without spending a slot. Item spellcasting still requires concentration where stated.",
+      "prepared": false
+    }
+  ]
+}

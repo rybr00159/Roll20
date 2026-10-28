@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Neris Vale",
+  "class": "Rogue",
+  "subclass": "Misfortune Bringer",
+  "level": 7,
+  "race": "Custom Lineage (Medium humanoid)",
+  "background": "Charlatan (PHB 2014; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 8,
+    "dexterity": 20,
+    "constitution": 13,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 14
+  },
+  "hp": {
+    "max": 45,
+    "current": 45,
+    "temp": 0
+  },
+  "ac": {
+    "value": 18,
+    "type": "Studded leather 12 + Dex 5 + cloak 1"
+  },
+  "speed": "30 ft.",
+  "saving_throws": [
+    "dexterity",
+    "intelligence"
+  ],
+  "skills": {
+    "deception": "proficient",
+    "sleight_of_hand": "proficient",
+    "stealth": "expertise",
+    "perception": "expertise",
+    "insight": "proficient",
+    "persuasion": "expertise"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Halfling, Thieves' Cant",
+  "proficiencies": "Light armor; simple weapons, hand crossbows, longswords, rapiers, shortswords. Thieves' tools expertise; disguise and forgery kits proficient. Darkvision 60 feet.",
+  "bio": "A soft-spoken document forger whose mismatched eyes seem to notice bad luck before it happens. Neris sells false identities to people fleeing cruel masters and makes the masters pay for the service. Bond: protect the people living under those new names. Flaw: trusts an elaborate plan more than a sincere promise.\n\nEnter 407 gp. Enable global +1 saving throw modifier from the cloak, including death saves. Sneak Attack is once per turn; choose the Sneak Attack attack row for one eligible hit only. Track four jinx points per short rest, two known misfortunes and thieves' tools expertise +11.\n\nRemaining gold: 407 gp. See the companion build guide for full progression, equipment ledger and feature timing.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "2014 Rogue 7. Standard array Str/Dex/Con/Int/Wis/Cha: 8/15/13/10/12/14. Lineage +2 Dex; racial Piercer +1 Dex; Rogue 4 +2 Dex. House Crossbow Expert has no stat increase. Native stats: 8/20/13/10/12/14. Equipped stats: 8/20/13/10/12/14. HP 45: first Hit Die maximum, six fixed average increases and Constitution at all seven levels.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Background Charlatan is the original PHB version and grants no feat. House-rule starting feat: Crossbow Expert, which gives no ability-score increase. Any racial half-feat is a separate racial choice, not the house feat. One rare and one uncommon magic item only. Additional 638 gp plus 15 gp background money; purchases 246 gp; remaining 407 gp. No resale or pre-existing summons assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Custom Lineage and feats",
+      "description": "Lineage +2 Dex and racial Piercer +1 Dex, then Rogue 4 +2 Dex: final Dexterity 20. House feat Crossbow Expert has no stat increase. Variable Trait grants darkvision 60 feet. Native Constitution remains 13; no unearned +1 is added.",
+      "source": "TCE; PHB 2014"
+    },
+    {
+      "name": "Crossbow Expert",
+      "description": "Ignore loading on proficient crossbows and no ranged-attack disadvantage merely from enemies within 5 feet. After the Attack action with this one-handed hand crossbow, bonus action can fire the SAME hand crossbow again. Keep the other hand FREE to load ammunition; no shield or second hand crossbow.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Piercer",
+      "description": "Once per turn on a piercing hit, reroll one damage die and use the new result; may choose an eligible piercing Sneak Attack die. A piercing critical adds one extra weapon damage die, beyond normal critical doubling. These bonuses are manual; the base attack row does not pre-apply a reroll.",
+      "source": "TCE"
+    },
+    {
+      "name": "Sneak Attack and defenses",
+      "description": "Sneak Attack 4d6 ONCE PER TURN, not once per hit. Normally needs advantage or an eligible ally within 5 feet, with no disadvantage. Uncanny Dodge uses reaction to halve damage from a visible attacker's hit. Evasion: on Dexterity saves for half damage, take none on success and half on failure. Cunning Action uses the same bonus action as Evil Eye or the crossbow follow-up.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Evil Eye",
+      "description": "Bonus action: visible creature within 60 feet makes a DC 13 Charisma save or is marked for up to 1 minute, ending when a different target is marked. No jinx-point cost and no concentration. Against the marked target, Sneak Attack does not need advantage or an adjacent ally, but still fails if you have disadvantage and remains once per turn.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Misfortunist",
+      "description": "Four jinx points per SHORT or long rest; two misfortunes known. Choose Curse of the Ruined and Curse of the Doomed. Replace one known misfortune after each long rest. DC 13 is Charisma-based, not Dexterity-based.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Curse of the Ruined — 2 jinx",
+      "description": "Reaction after the marked creature rolls a saving throw, before success is declared: force a reroll and use the LOWER result. A strong setup for an ally's control spell. Does not bypass Legendary Resistance.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Curse of the Doomed — 1 jinx",
+      "description": "After missing the marked target with a weapon attack, spend your reaction to make an additional weapon attack as part of the same action. It can rescue a missed Sneak Attack, but does not grant a second Sneak Attack on the same turn. Competes with Uncanny Dodge and Curse of the Ruined for your one reaction.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Expertise",
+      "description": "Four choices total: Stealth and Perception at Rogue 1, Persuasion and thieves' tools at Rogue 6. Skill expertise is imported; tools expertise is a manual Dexterity +11 check. Thieves' Cant is separate from normal languages.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Cloak of Protection",
+      "description": "Attuned. +1 AC already included. AFTER IMPORT add an enabled global +1 saving throw modifier, including death saves. Final Str/Dex/Con/Int/Wis/Cha saves are +0/+9/+2/+4/+2/+3. Do not add the modifier twice.",
+      "source": "DMG 2014"
+    },
+    {
+      "name": "Steady Aim",
+      "description": "Optional Tasha feature: if you have not moved this turn, use a bonus action to gain advantage on your next attack this turn, then your speed is 0 until turn end. This uses the same bonus action as Evil Eye, Cunning Action or the Crossbow Expert follow-up; it is not free advantage on both shots.",
+      "source": "TCE p.62"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "+2 Hand Crossbow",
+      "to_hit": 10,
+      "kind": "Ranged",
+      "range": "30/120 ft.",
+      "damage": {
+        "dice": "1d6+7",
+        "type": "piercing"
+      },
+      "description": "Can fire twice per turn using Attack action plus Crossbow Expert bonus action; expends a bolt each shot."
+    },
+    {
+      "name": "+2 Hand Crossbow + Sneak Attack",
+      "to_hit": 10,
+      "kind": "Ranged",
+      "range": "30/120 ft.",
+      "damage": {
+        "dice": "1d6+4d6+7",
+        "type": "piercing"
+      },
+      "description": "Use for ONE qualifying hit per turn. Other hit uses the normal row. Do not let auto-crit double Piercer's extra die; add one weapon d6 manually."
+    },
+    {
+      "name": "Rapier",
+      "to_hit": 8,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d8+5",
+        "type": "piercing"
+      },
+      "description": ""
+    },
+    {
+      "name": "Dagger",
+      "to_hit": 8,
+      "kind": "Melee",
+      "range": "5 ft. or thrown 20/60 ft.",
+      "damage": {
+        "dice": "1d4+5",
+        "type": "piercing"
+      },
+      "description": ""
+    }
+  ],
+  "equipment": [
+    {
+      "name": "+2 Hand Crossbow",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Rare allocation; no attunement."
+    },
+    {
+      "name": "Cloak of Protection",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Uncommon allocation; attuned. Apply save bonus after import."
+    },
+    {
+      "name": "Rapier",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Free starting weapon."
+    },
+    {
+      "name": "Shortsword",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Choose the second starting-weapon option instead of shortbow and arrows."
+    },
+    {
+      "name": "Leather Armor",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Free starting armor; spare, NOT worn."
+    },
+    {
+      "name": "Dagger",
+      "quantity": 2,
+      "weight": 1,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Burglar's Pack",
+      "quantity": 1,
+      "weight": 44.5,
+      "description": "Free class pack, contents included in weight."
+    },
+    {
+      "name": "Thieves' Tools",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free class equipment; expertise check is Dex +11."
+    },
+    {
+      "name": "Charlatan equipment",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Fine clothes, disguise kit, marked cards and pouch. 15 gp included in cash; forgery-kit proficiency is granted, but the kit itself is purchased below."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "quantity": 1,
+      "weight": 13,
+      "description": "Purchased: 45 gp each; 45 gp total. Worn; base 12 + Dex 5 + cloak 1 = 18."
+    },
+    {
+      "name": "Crossbow Bolts (20)",
+      "quantity": 2,
+      "weight": 1.5,
+      "description": "Purchased: 1 gp each; 2 gp total. 40 bolts total; ammunition is still required."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased: 50 gp each; 100 gp total. "
+    },
+    {
+      "name": "Forgery Kit",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 15 gp each; 15 gp total. "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased: 5 gp each; 5 gp total. "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Ball Bearings (bag of 1,000)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased: 50 gp each; 50 gp total. "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 407,
+      "weight": 0.02,
+      "description": "407 gp remaining; set the sheet gold counter to this amount. This row is the same money, not extra."
+    }
+  ]
+}

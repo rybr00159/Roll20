@@ -1,0 +1,703 @@
+{
+  "constraints": {
+    "level": 7,
+    "rules": "2014 5e",
+    "standard_array": [
+      15,
+      14,
+      13,
+      12,
+      10,
+      8
+    ],
+    "additional_gp": 638,
+    "feat_backgrounds": false,
+    "house_feat_ability_increase": false,
+    "grim_hollow_source": "GrimHollowPlayerPack",
+    "source_revision": "069a70e491d5c4df83f6e94e8f48abb75cc0d49b"
+  },
+  "characters": [
+    {
+      "slug": "pc-mara-ironwake-level7",
+      "base_array": {
+        "strength": 15,
+        "dexterity": 13,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 8
+      },
+      "ability_changes": {
+        "strength": 5
+      },
+      "native_abilities": {
+        "strength": 20,
+        "dexterity": 13,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 8
+      },
+      "item_overrides": {},
+      "house_feat": "Great Weapon Master",
+      "feats": [
+        {
+          "name": "Slasher",
+          "source": "lineage",
+          "ability_increase": {
+            "strength": 1
+          }
+        },
+        {
+          "name": "Great Weapon Master",
+          "source": "house",
+          "ability_increase": {}
+        },
+        {
+          "name": "Polearm Master",
+          "source": "Fighter 4",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "+2 Glaive",
+          "rarity": "rare",
+          "attunement": false
+        },
+        {
+          "name": "Winged Boots",
+          "rarity": "uncommon",
+          "attunement": true
+        }
+      ],
+      "background": "Soldier",
+      "background_gp": 10,
+      "purchases": [
+        {
+          "name": "Splint Armor",
+          "quantity": 1,
+          "unit_gp": 200,
+          "notes": "Worn; base AC 17, Strength requirement met.",
+          "weight": 60
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 1,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        }
+      ],
+      "spent_gp": 386,
+      "remaining_gp": 262,
+      "metadata": {
+        "role": "Flying polearm striker and stun controller",
+        "advancement": "Lineage +2 Str; racial Slasher +1 Str; Fighter 4 PAM; Fighter 6 +2 Str.",
+        "ac_formula": "Splint 17 + Defense 1; no shield",
+        "grim_features": [
+          "Stance of the Blade Breaker",
+          "Helmsplitter",
+          "Refusal to Bleed",
+          "Unyielding Determination"
+        ],
+        "import_notes": "Enter 262 gp. Track 14 maneuver points per long rest. Select advantage for Iron Punisher attacks and remember attacks against you also gain advantage. No permanent stance is encoded in the imported rolls.",
+        "tactics": [
+          "Use Iron Punisher with GWM against targets you can afford to expose yourself to. On one advantaged hit, Helmsplitter forces a disadvantaged Constitution save against stun.",
+          "Action Surge doubles the action attacks, not bonus actions. Save Refusal to Bleed or Wall of Blades for a reaction on the enemy turn.",
+          "Switch to Steel Serpent when reach is more valuable than reciprocal advantage; its extra reach applies only on your turn. Use boots to reach flying enemies."
+        ]
+      }
+    },
+    {
+      "slug": "pc-torren-ravenmantle-level7",
+      "base_array": {
+        "strength": 8,
+        "dexterity": 13,
+        "constitution": 15,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 12
+      },
+      "ability_changes": {
+        "dexterity": 3,
+        "constitution": 3
+      },
+      "native_abilities": {
+        "strength": 8,
+        "dexterity": 16,
+        "constitution": 18,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 12
+      },
+      "item_overrides": {
+        "strength": 21
+      },
+      "house_feat": "Great Weapon Master",
+      "feats": [
+        {
+          "name": "Great Weapon Master",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "Belt of Hill Giant Strength",
+          "rarity": "rare",
+          "attunement": true
+        },
+        {
+          "name": "+1 Glaive",
+          "rarity": "uncommon",
+          "attunement": false
+        }
+      ],
+      "background": "Outlander",
+      "background_gp": 10,
+      "purchases": [
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Climber's Kit",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Silk Rope (50 feet)",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "",
+          "weight": 5
+        }
+      ],
+      "spent_gp": 271,
+      "remaining_gp": 377,
+      "metadata": {
+        "role": "Raging heavy-weapon attacker and beast summoner",
+        "advancement": "Mountain dwarf +2 Dex/+2 Con via Tasha; Barbarian 4 +1 Dex/+1 Con. Belt sets native Str 8 to 21.",
+        "ac_formula": "Unarmored Defense: 10 + Dex 3 + Con 4",
+        "grim_features": [
+          "Feral Celerity",
+          "Call of the Beast Lord",
+          "Raven's Spirit"
+        ],
+        "import_notes": "Enter 377 gp. Native Strength without the belt is 8. Apply advantage to initiative and appropriate Reckless/Danger Sense rolls manually. Track four rages, 14 maneuver points and maneuver concentration. No beast is present initially.",
+        "tactics": [
+          "For a major fight, action Call of the Beast Lord for a Giant Ape, then bonus-action rage and use the Feral Celerity attack. Maneuver concentration is specifically legal during rage.",
+          "On later turns take two reckless glaive attacks, often with GWM. The ape takes its own immediately following turn.",
+          "Pack Leader can generate an off-turn attack, but uses your reaction and requires the enemy to be within 5 feet. Only one reaction is available before your next turn."
+        ]
+      }
+    },
+    {
+      "slug": "pc-isolde-mournsong-level7",
+      "base_array": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 8,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 15
+      },
+      "ability_changes": {
+        "charisma": 5
+      },
+      "native_abilities": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 8,
+        "intelligence": 12,
+        "wisdom": 13,
+        "charisma": 20
+      },
+      "item_overrides": {
+        "constitution": 19
+      },
+      "house_feat": "War Caster",
+      "feats": [
+        {
+          "name": "Fey Touched",
+          "source": "lineage",
+          "ability_increase": {
+            "charisma": 1
+          }
+        },
+        {
+          "name": "War Caster",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "Amulet of Health",
+          "rarity": "rare",
+          "attunement": true
+        },
+        {
+          "name": "Instrument of the Bards, Doss Lute",
+          "rarity": "uncommon",
+          "attunement": true
+        }
+      ],
+      "background": "Entertainer",
+      "background_gp": 15,
+      "purchases": [
+        {
+          "name": "Studded Leather Armor",
+          "quantity": 1,
+          "unit_gp": 45,
+          "notes": "Worn, AC 12 + Dex 2.",
+          "weight": 13
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Shortbow",
+          "quantity": 4,
+          "unit_gp": 25,
+          "notes": "Stored to arm up to four future skeletons; no skeletons are present at the start.",
+          "weight": null
+        },
+        {
+          "name": "Arrows (20)",
+          "quantity": 4,
+          "unit_gp": 1,
+          "notes": "80 arrows total for future servants.",
+          "weight": 1
+        },
+        {
+          "name": "Quiver",
+          "quantity": 4,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Dagger",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        }
+      ],
+      "spent_gp": 285,
+      "remaining_gp": 368,
+      "metadata": {
+        "role": "Charm-based controller, party face and necromantic support",
+        "advancement": "Lineage +2 Cha; racial Fey Touched +1 Cha; Bard 4 +2 Cha. Amulet sets native Con 8 to 19.",
+        "ac_formula": "Studded leather 12 + Dex 2",
+        "grim_features": [
+          "Chilling Melody",
+          "Pluck the Heartstrings",
+          "Stir the Bones"
+        ],
+        "import_notes": "Enter 368 gp. Enable Jack of All Trades so initiative is +3 and untrained ability checks gain +1. Mark Amulet of Health and Doss Lute attuned. Apply War Caster concentration advantage manually. No undead exist initially; track their 24-hour control and actual equipment separately.",
+        "tactics": [
+          "Play the Doss lute for Hypnotic Pattern: DC 16 with disadvantage against susceptible creatures. Do not use this plan against charm immunity.",
+          "Use Polymorph for a badly injured ally or control a dangerous foe; use Healing Word for emergency recovery. Only one concentration spell can run at once.",
+          "Once actual remains and preparation time are available, Animate Dead supplies servants. Each inspiration bonus action can also grant Dirge dice to up to three and command them."
+        ]
+      }
+    },
+    {
+      "slug": "pc-sera-dawnwarden-level7",
+      "base_array": {
+        "strength": 8,
+        "dexterity": 12,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 13,
+        "charisma": 15
+      },
+      "ability_changes": {
+        "constitution": 2,
+        "wisdom": 1,
+        "charisma": 3
+      },
+      "native_abilities": {
+        "strength": 8,
+        "dexterity": 12,
+        "constitution": 16,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 18
+      },
+      "item_overrides": {
+        "strength": 21
+      },
+      "house_feat": "Polearm Master",
+      "feats": [
+        {
+          "name": "Polearm Master",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "Belt of Hill Giant Strength",
+          "rarity": "rare",
+          "attunement": true
+        },
+        {
+          "name": "+1 Quarterstaff",
+          "rarity": "uncommon",
+          "attunement": false
+        }
+      ],
+      "background": "Acolyte",
+      "background_gp": 15,
+      "purchases": [
+        {
+          "name": "Splint Armor",
+          "quantity": 1,
+          "unit_gp": 200,
+          "notes": "Worn; AC 17 plus shield 2. Belt meets Strength requirement.",
+          "weight": 60
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 4,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 1,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Silk Rope (50 feet)",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "",
+          "weight": 5
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        }
+      ],
+      "spent_gp": 495,
+      "remaining_gp": 158,
+      "metadata": {
+        "role": "Shield-bearing protector and marked-target smite striker",
+        "advancement": "Half-elf +2 Cha/+1 Con/+1 Wis; Paladin 4 +1 Cha/+1 Con. Belt sets native Str 8 to 21.",
+        "ac_formula": "Splint 17 + shield 2; Dueling is damage, not AC",
+        "grim_features": [
+          "Mark of the Heretic",
+          "Aura of Clarity"
+        ],
+        "import_notes": "Enter 158 gp. Add global +4 saving throw modifier for Aura of Protection only while conscious and active; switch it off while unconscious, including your own death saves. Against the current Heretic target only, manually treat 19 as a critical. Track 35 Lay on Hands HP and one Channel Divinity use per short rest.",
+        "tactics": [
+          "Bonus-action Mark of the Heretic, then take two staff attacks. If the target starts its turn within your weapon reach, use your reaction for a third attack.",
+          "On later turns, a PAM shaft attack can add another hit; select where to spend smites after seeing the hit or critical. Hunter's Mark is a separate concentration/bonus-action investment.",
+          "Stay within 10 feet of vulnerable allies for +4 saves and blindness/invisibility protection. Your reaction cannot simultaneously serve Heretic, PAM and another opportunity attack."
+        ]
+      }
+    },
+    {
+      "slug": "pc-neris-vale-level7",
+      "base_array": {
+        "strength": 8,
+        "dexterity": 15,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 14
+      },
+      "ability_changes": {
+        "dexterity": 5
+      },
+      "native_abilities": {
+        "strength": 8,
+        "dexterity": 20,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 12,
+        "charisma": 14
+      },
+      "item_overrides": {},
+      "house_feat": "Crossbow Expert",
+      "feats": [
+        {
+          "name": "Piercer",
+          "source": "lineage",
+          "ability_increase": {
+            "dexterity": 1
+          }
+        },
+        {
+          "name": "Crossbow Expert",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "+2 Hand Crossbow",
+          "rarity": "rare",
+          "attunement": false
+        },
+        {
+          "name": "Cloak of Protection",
+          "rarity": "uncommon",
+          "attunement": true
+        }
+      ],
+      "background": "Charlatan",
+      "background_gp": 15,
+      "purchases": [
+        {
+          "name": "Studded Leather Armor",
+          "quantity": 1,
+          "unit_gp": 45,
+          "notes": "Worn; base 12 + Dex 5 + cloak 1 = 18.",
+          "weight": 13
+        },
+        {
+          "name": "Crossbow Bolts (20)",
+          "quantity": 2,
+          "unit_gp": 1,
+          "notes": "40 bolts total; ammunition is still required.",
+          "weight": 1.5
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Forgery Kit",
+          "quantity": 1,
+          "unit_gp": 15,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 1,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        }
+      ],
+      "spent_gp": 246,
+      "remaining_gp": 407,
+      "metadata": {
+        "role": "Accurate ranged rogue, scout, face and enemy-save disruptor",
+        "advancement": "Lineage +2 Dex; racial Piercer +1 Dex; Rogue 4 +2 Dex. House Crossbow Expert has no stat increase.",
+        "ac_formula": "Studded leather 12 + Dex 5 + cloak 1",
+        "grim_features": [
+          "Evil Eye",
+          "Misfortunist",
+          "Curse of the Ruined"
+        ],
+        "import_notes": "Enter 407 gp. Enable global +1 saving throw modifier from the cloak, including death saves. Sneak Attack is once per turn; choose the Sneak Attack attack row for one eligible hit only. Track four jinx points per short rest, two known misfortunes and thieves' tools expertise +11.",
+        "tactics": [
+          "Mark a durable target with Evil Eye, or skip marking when an ally already enables Sneak Attack and use the bonus action for a second shot.",
+          "After the target fails the mark save, Curse of the Ruined can force a worse save against an ally's decisive spell. Doomed can instead rescue your own missed attack.",
+          "Use one hand crossbow with a free loading hand. Neither Crossbow Expert nor the mark grants extra reactions, automatic hits, or Sneak Attack more than once on a turn."
+        ]
+      }
+    }
+  ]
+}

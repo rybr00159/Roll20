@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "Skeleton (Isolde reference)",
+  "size": "Medium",
+  "creature_type": "undead",
+  "alignment": "Lawful evil",
+  "challenge": "1/4",
+  "xp": 50,
+  "abilities": {
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 15,
+    "intelligence": 6,
+    "wisdom": 8,
+    "charisma": 5
+  },
+  "hp": {
+    "max": 13,
+    "formula": "2d8+4"
+  },
+  "ac": {
+    "value": 13,
+    "type": "armor scraps; original Monster Manual reference"
+  },
+  "speed": "30 ft.",
+  "senses": "darkvision 60 ft.; passive Perception 9",
+  "languages": "Understands languages known in life but cannot speak.",
+  "vulnerabilities": "bludgeoning",
+  "immunities": "poison",
+  "condition_immunities": "poisoned",
+  "bio": "Original Monster Manual Skeleton reference for an actually created Animate Dead servant. No undead are supplied at character creation. Track 24-hour control, actual equipment, individual HP and Dirge dice separately.",
+  "traits": [
+    {
+      "name": "Undead Nature",
+      "description": "Does not need air, food, drink or sleep."
+    },
+    {
+      "name": "Dirge die (conditional)",
+      "description": "When actually granted by Stir the Bones, may hold a d8 Dirge die for 10 minutes. If used to turn an attack into a hit, also add its result to damage. Do not assume this die is always active."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Shortsword",
+      "description": "Requires the servant actually to have this weapon.",
+      "attack": {
+        "to_hit": 4,
+        "kind": "Melee",
+        "range": "5 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "1d6+2",
+          "type": "piercing"
+        }
+      }
+    },
+    {
+      "name": "Shortbow",
+      "description": "Requires a shortbow and ammunition; Isolde purchased equipment for up to four archers.",
+      "attack": {
+        "to_hit": 4,
+        "kind": "Ranged",
+        "range": "80/320 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "1d6+2",
+          "type": "piercing"
+        }
+      }
+    }
+  ]
+}

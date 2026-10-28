@@ -1,0 +1,421 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Sera Dawnwarden",
+  "class": "Paladin",
+  "subclass": "Oath of Zeal",
+  "level": 7,
+  "race": "Half-Elf (PHB 2014)",
+  "background": "Acolyte (PHB 2014; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 21,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 18
+  },
+  "hp": {
+    "max": 67,
+    "current": 67,
+    "temp": 0
+  },
+  "ac": {
+    "value": 19,
+    "type": "Splint 17 + shield 2; Dueling is damage, not AC"
+  },
+  "speed": "30 ft.",
+  "saving_throws": [
+    "wisdom",
+    "charisma"
+  ],
+  "skills": {
+    "insight": "proficient",
+    "religion": "proficient",
+    "athletics": "proficient",
+    "persuasion": "proficient",
+    "perception": "proficient",
+    "intimidation": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Elvish, Dwarvish, Celestial, Infernal",
+  "proficiencies": "All armor, shields, simple/martial weapons. Half-elf skills Perception and Intimidation; class Athletics and Persuasion; background Insight and Religion. Dueling fighting style.",
+  "bio": "A former temple prosecutor who broke with corrupt elders after discovering their secret prison. Sera directs her zeal against coercive cults and their tyrants, not ordinary worshippers. Bond: free the remaining prisoners. Flaw: hears uncertainty as a challenge to her resolve.\n\nEnter 158 gp. Add global +4 saving throw modifier for Aura of Protection only while conscious and active; switch it off while unconscious, including your own death saves. Against the current Heretic target only, manually treat 19 as a critical. Track 35 Lay on Hands HP and one Channel Divinity use per short rest.\n\nRemaining gold: 158 gp. See the companion build guide for full progression, equipment ledger and feature timing.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "2014 Paladin 7. Standard array Str/Dex/Con/Int/Wis/Cha: 8/12/14/10/13/15. Half-elf +2 Cha/+1 Con/+1 Wis; Paladin 4 +1 Cha/+1 Con. Belt sets native Str 8 to 21. Native stats: 8/12/16/10/14/18. Equipped stats: 21/12/16/10/14/18. HP 67: first Hit Die maximum, six fixed average increases and Constitution at all seven levels.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Background Acolyte is the original PHB version and grants no feat. House-rule starting feat: Polearm Master, which gives no ability-score increase. Any racial half-feat is a separate racial choice, not the house feat. One rare and one uncommon magic item only. Additional 638 gp plus 15 gp background money; purchases 495 gp; remaining 158 gp. No resale or pre-existing summons assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Half-elf advancement",
+      "description": "Racial +2 Charisma, +1 Constitution, +1 Wisdom. Paladin 4 adds +1 Charisma and +1 Constitution: native Con 16, Cha 18, Wis 14. House feat Polearm Master grants no stat increase. Darkvision 60 feet; advantage on saves against charm; magic cannot put you to sleep.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Belt and equipment dependency",
+      "description": "Belt sets native Strength 8 to 21. With it, splint's Strength requirement is met and speed remains 30 feet. Without the belt, reduce Strength and apply the heavy-armor speed penalty. Attunement: one slot used.",
+      "source": "DMG 2014"
+    },
+    {
+      "name": "Dueling and Polearm Master",
+      "description": "Wield +1 quarterstaff in ONE hand and a shield in the other. Dueling adds +2 damage; a shield is not a second weapon. Attack action makes two 1d6+8 attacks; qualifying bonus action makes one 1d4+8 shaft attack. PAM can also trigger an opportunity attack when a creature enters the staff's 5-foot reach.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Mark of the Heretic",
+      "description": "Channel Divinity, bonus action: mark a visible creature within 30 feet for 1 minute. Your weapon attacks against it crit on 19 or 20. When ITS turn starts, you may use your reaction to make ONE weapon attack against it, provided normal weapon range/reach permits. Does not grant extra reactions, movement or advantage.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Inquisitor's Eye",
+      "description": "Alternate Channel Divinity, bonus action: for 10 minutes gain advantage on Investigation, Insight and Perception checks and cannot be surprised. Shares the same one-per-rest Channel Divinity pool with Mark of the Heretic.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Aura of Clarity",
+      "description": "At Paladin 7, while conscious, you and friendly creatures within 10 feet cannot be blinded. Chosen creatures/objects in that range cannot benefit from invisibility. Does not reveal things outside the aura.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Aura of Protection",
+      "description": "While conscious, you and friendly creatures within 10 feet add Charisma +4 to saving throws, including your concentration saves. AFTER IMPORT add an enabled global +4 save modifier while conscious. Base displayed saves omit the aura. Disable it when unconscious; it does NOT add +4 to your own ordinary death saves.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Divine Smite",
+      "description": "After a melee weapon hit, optionally spend a slot: 2d8 radiant for 1st level, 3d8 for 2nd, plus 1d8 against undead/fiends. It is a feature, not a bonus-action spell in 2014. Dice double on critical hits. Do not add smite to every attack without spending slots.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Paladin resources",
+      "description": "Lay on Hands 35 HP per long rest; can spend 5 to cure one disease or neutralize one poison. Divine Sense 5 uses per long rest. Channel Divinity 1 per short/long rest. Divine Health grants disease immunity. Seven prepared paladin spells plus four always-prepared oath spells; slots 4/3.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Hunter's Mark and action economy",
+      "description": "The spell adds 1d6 to each weapon hit but requires concentration and its own bonus action to cast/move. Mark of the Heretic is a different, non-spell feature. You cannot cast Hunter's Mark and use the PAM bonus attack on the same turn. One reaction must be shared between Heretic attacks and opportunity attacks.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Spellcasting hands",
+      "description": "The shield can bear your holy symbol for spells using an unpriced nonconsumed material component. Without War Caster, stow the staff to provide a free hand for somatic-only spells such as Cure Wounds. Plan object interactions; do not assume the PAM house feat solves spell components.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Harness Divine Power",
+      "description": "Optional Tasha feature: bonus action, spend your one shared Channel Divinity use to recover an expended 1st- or 2nd-level spell slot. At Paladin 7 this feature is limited to twice per LONG rest, even if short rests refresh Channel Divinity. It competes with Mark of the Heretic for the shared resource.",
+      "source": "TCE p.52"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "+1 Quarterstaff — one-handed Dueling",
+      "to_hit": 9,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d6+8",
+        "type": "bludgeoning"
+      },
+      "description": "Strength 5 + magic 1 + Dueling 2. Add smite or Hunter's Mark only if actually used."
+    },
+    {
+      "name": "PAM staff shaft",
+      "to_hit": 9,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d4+8",
+        "type": "bludgeoning"
+      },
+      "description": "Bonus action after qualifying Attack action. Dueling applies."
+    },
+    {
+      "name": "Marked target — 19–20 critical",
+      "to_hit": 9,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d6+8",
+        "type": "bludgeoning"
+      },
+      "description": "Use critical range 19 only against the active Mark of the Heretic target; the importer defaults to 20, so flag 19s manually."
+    },
+    {
+      "name": "Javelin — thrown with shield",
+      "to_hit": 8,
+      "kind": "Ranged",
+      "range": "30/120 ft.",
+      "damage": {
+        "dice": "1d6+7",
+        "type": "piercing"
+      },
+      "description": "Dueling applies when only the javelin is wielded with the shield. Stow the staff before switching weapons; respect object interactions."
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Belt of Hill Giant Strength",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Rare allocation; attuned; Strength 21."
+    },
+    {
+      "name": "+1 Quarterstaff",
+      "quantity": 1,
+      "weight": 4,
+      "description": "Uncommon allocation; no attunement."
+    },
+    {
+      "name": "Longsword",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Free starting martial weapon, backup."
+    },
+    {
+      "name": "Shield",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Free starting shield; wielded."
+    },
+    {
+      "name": "Javelin",
+      "quantity": 5,
+      "weight": 2,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Chain Mail",
+      "quantity": 1,
+      "weight": 55,
+      "description": "Free starting armor; spare, NOT worn."
+    },
+    {
+      "name": "Priest's Pack",
+      "quantity": 1,
+      "weight": 24,
+      "description": "Free class pack; contents included in weight."
+    },
+    {
+      "name": "Holy symbol",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Free class focus; display on the shield."
+    },
+    {
+      "name": "Acolyte equipment",
+      "quantity": 1,
+      "weight": 8,
+      "description": "Gift holy symbol, prayer book, 5 incense sticks, vestments, common clothes and pouch. Background 15 gp is included in cash."
+    },
+    {
+      "name": "Splint Armor",
+      "quantity": 1,
+      "weight": 60,
+      "description": "Purchased: 200 gp each; 200 gp total. Worn; AC 17 plus shield 2. Belt meets Strength requirement."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 4,
+      "weight": 0.5,
+      "description": "Purchased: 50 gp each; 200 gp total. "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased: 5 gp each; 5 gp total. "
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased: 50 gp each; 50 gp total. "
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 10 gp each; 10 gp total. "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 158,
+      "weight": 0.02,
+      "description": "158 gp remaining; set the sheet gold counter to this amount. This row is the same money, not extra."
+    }
+  ],
+  "spellcasting": {
+    "ability": "charisma",
+    "save_dc": 15,
+    "attack_bonus": 7,
+    "slots": {
+      "1": 4,
+      "2": 3
+    }
+  },
+  "spells": [
+    {
+      "name": "Bless",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 minute",
+      "description": "Up to three creatures add 1d4 to attacks and saving throws. Concentration; cannot combine with Hunter's Mark or Shield of Faith.",
+      "concentration": true,
+      "materials": "a sprinkling of holy water",
+      "prepared": true
+    },
+    {
+      "name": "Cure Wounds",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Touch a living creature; restore 1d8+4 HP, with another 1d8 per slot level above 1st. Use the 2014 healing amount.",
+      "prepared": true
+    },
+    {
+      "name": "Shield of Faith",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 bonus action",
+      "range": "60 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 10 minutes",
+      "description": "Bonus action; target gains +2 AC for up to 10 minutes with concentration. Not active on the starting sheet. Conflicts with other bonus actions and concentration spells.",
+      "concentration": true,
+      "materials": "a small parchment with a bit of holy text written on it",
+      "prepared": true
+    },
+    {
+      "name": "Command",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "1 round",
+      "description": "DC 15 Wisdom save; give a one-word command to a creature that understands your language. Undead and directly harmful commands are unaffected. No concentration.",
+      "prepared": true
+    },
+    {
+      "name": "Aid",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "8 hours",
+      "description": "Prepared paladin spell. Up to three creatures gain 5 current and maximum HP for 8 hours, +5 per slot level above 2nd. Not temporary HP and no concentration. Not pre-applied to the sheet.",
+      "materials": "a tiny strip of white cloth",
+      "prepared": true
+    },
+    {
+      "name": "Find Steed",
+      "level": 2,
+      "school": "conjuration",
+      "casting_time": "10 minutes",
+      "range": "30 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Summon an eligible spirit steed, such as a warhorse. It persists until dismissed or reduced to 0 HP. Use the 2014 mount and spell-sharing rules; no steed is assumed already summoned in the import.",
+      "prepared": true
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Touch a creature and end one disease or one instance of blindness, deafness, paralysis, or poisoning.",
+      "prepared": true
+    },
+    {
+      "name": "Detect Evil and Good",
+      "level": 1,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "Up to 10 minutes",
+      "description": "Oath spell. For up to 10 minutes, sense listed supernatural creature types within 30 feet and consecrated/desecrated places or objects, subject to barrier limits. Concentration.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Hunter's Mark",
+      "level": 1,
+      "school": "divination",
+      "casting_time": "1 bonus action",
+      "range": "90 ft.",
+      "components": "V",
+      "duration": "Up to 1 hour",
+      "description": "Oath spell. Bonus action; mark a visible creature within 90 feet and add 1d6 to each weapon hit against it. Advantage on Perception/Survival checks to find it. Move the mark with a later bonus action after it drops to 0 HP. Concentration. This is separate from the Channel Divinity Mark of the Heretic.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Detect Thoughts",
+      "level": 2,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "Up to 1 minute",
+      "description": "Oath spell. Read surface thoughts and optionally probe deeper using the full spell's Wisdom save and contest rules. Concentration. Uses spell DC 15.",
+      "concentration": true,
+      "materials": "a copper piece",
+      "prepared": true
+    },
+    {
+      "name": "Knock",
+      "level": 2,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Oath spell. Open one eligible lock, bar or magical Arcane Lock suppression. Makes a loud sound audible up to 300 feet away; not a stealth solution.",
+      "prepared": true
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Torren Ravenmantle",
+  "class": "Barbarian",
+  "subclass": "Path of the Carrion Raven",
+  "level": 7,
+  "race": "Mountain Dwarf (Tasha customized origin)",
+  "background": "Outlander (PHB 2014; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 21,
+    "dexterity": 16,
+    "constitution": 18,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 12
+  },
+  "hp": {
+    "max": 82,
+    "current": 82,
+    "temp": 0
+  },
+  "ac": {
+    "value": 17,
+    "type": "Unarmored Defense: 10 + Dex 3 + Con 4"
+  },
+  "speed": "35 ft. (dwarf 25 + Fast Movement 10)",
+  "saving_throws": [
+    "strength",
+    "constitution"
+  ],
+  "skills": {
+    "athletics": "proficient",
+    "survival": "proficient",
+    "perception": "proficient",
+    "intimidation": "proficient",
+    "animal_handling": "proficient",
+    "nature": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Dwarvish, Giant",
+  "proficiencies": "Light and medium armor, shields, simple/martial weapons; brewer's supplies; horn. Dwarven poison resistance and advantage on poison saves; darkvision 60 feet.",
+  "bio": "A dwarf exiled for sharing a winter food cache with outsiders. Torren carries carved ravens for companions who never returned, and treats hungry animals more gently than cruel people. Bond: the outcast families of the high passes. Flaw: hoards food long after the danger has passed.\n\nEnter 377 gp. Native Strength without the belt is 8. Apply advantage to initiative and appropriate Reckless/Danger Sense rolls manually. Track four rages, 14 maneuver points and maneuver concentration. No beast is present initially.\n\nRemaining gold: 377 gp. See the companion build guide for full progression, equipment ledger and feature timing.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "2014 Barbarian 7. Standard array Str/Dex/Con/Int/Wis/Cha: 8/13/15/10/14/12. Mountain dwarf +2 Dex/+2 Con via Tasha; Barbarian 4 +1 Dex/+1 Con. Belt sets native Str 8 to 21. Native stats: 8/16/18/10/14/12. Equipped stats: 21/16/18/10/14/12. HP 82: first Hit Die maximum, six fixed average increases and Constitution at all seven levels.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Background Outlander is the original PHB version and grants no feat. House-rule starting feat: Great Weapon Master, which gives no ability-score increase. Any racial half-feat is a separate racial choice, not the house feat. One rare and one uncommon magic item only. Additional 638 gp plus 10 gp background money; purchases 271 gp; remaining 377 gp. No resale or pre-existing summons assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Mountain dwarf advancement",
+      "description": "Use Tasha's optional origin rules to move the two +2 increases to Dexterity and Constitution: Dex 13 to 15, Con 15 to 17. Barbarian 4 adds +1 Dex and +1 Con, reaching Dex 16 / Con 18. No racial feat. House feat GWM has no stat increase.",
+      "source": "PHB 2014; TCE"
+    },
+    {
+      "name": "Belt and unarmored defense",
+      "description": "Attuned belt SETS Strength to 21; native Strength is 8, not 21 permanently. AC is unarmored 10 + Dex 3 + Con 4 = 17, without a shield. Remove the item bonuses if separated from the belt.",
+      "source": "DMG 2014; PHB 2014"
+    },
+    {
+      "name": "Rage / Reckless Attack / Extra Attack",
+      "description": "Four rages per long rest; +2 melee damage on Strength attacks and resistance to bludgeoning, piercing and slashing while raging. Two attacks with the Attack action. Reckless Attack gives advantage to Strength melee attacks on your turn, while attacks against you gain advantage until your next turn. Rage ends under the 2014 duration/attack/damage rules.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Feral Celerity",
+      "description": "Entering rage with a bonus action also allows ONE weapon attack as part of that same bonus action. Carrion Raven explicitly allows concentration on MANEUVERS during rage; it does not allow concentrating on spells.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Martial Maneuvers",
+      "description": "14 points per long rest, four known maneuvers, DC 15 based on Constitution 18. At most one maneuver per turn. Chosen: Call of the Beast Lord, Axolotl's Regeneration, Pack Leader, Predator's Howl.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Call of the Beast Lord — 5 points",
+      "description": "Action: conjure a friendly beast of CR no greater than your level within 60 feet. At level 7, a Giant Ape (CR 7) qualifies under the printed Player Pack text. It acts immediately after your turn on the same initiative; verbal commands require no action. Lasts 10 minutes, until 0 HP, or until maneuver concentration ends. One concentration effect at a time. This is not the lower-CR self-polymorph maneuver.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Axolotl's Regeneration — 2 or 6 points",
+      "description": "Bonus action: regain 1d12+4 HP. Spending 6 points also regrows one lost limb or organ. Competes with rage activation and other bonus actions.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Pack Leader — 1 point",
+      "description": "Reaction when an enemy within FIVE feet of you is attacked: make one melee attack against it, and give the triggering attack advantage. A glaive's 10-foot reach does not remove the 5-foot trigger requirement.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Predator's Howl — 2 points",
+      "description": "Bonus action: two chosen creatures within 30 feet make DC 15 Wisdom saves or are frightened until your next turn. While frightened by this effect, each time weapon attacks damage them they take an additional 1d6 psychic.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Raven's Spirit",
+      "description": "Animal Handling proficiency gained at Barbarian 6. Can cast Speak with Animals as a ritual; this grants no spell slots and cannot be cast during rage.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Feral Instinct and Danger Sense",
+      "description": "Advantage on initiative from Feral Instinct. Can act normally when surprised if you enter rage before anything else on the first turn. Advantage on Dexterity saves against effects you can see while not blinded, deafened or incapacitated. Fast Movement adds 10 feet while not wearing heavy armor.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Dwarven traits",
+      "description": "Darkvision 60 feet, poison resistance and advantage on saves against poison. Stonecunning doubles proficiency for Intelligence (History) checks about stonework, even if not ordinarily proficient in History. Brewer's supplies proficiency.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Primal Knowledge and Instinctive Pounce",
+      "description": "Optional Tasha features selected: Barbarian 3 grants Nature proficiency; Barbarian 7 permits movement up to half your speed as part of entering rage. This can accompany the Carrion Raven attack in the same rage bonus action; it does not grant a second bonus action.",
+      "source": "TCE p.24"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "+1 Glaive — not raging",
+      "to_hit": 9,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d10+6",
+        "type": "slashing"
+      },
+      "description": ""
+    },
+    {
+      "name": "+1 Glaive — raging",
+      "to_hit": 9,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d10+8",
+        "type": "slashing"
+      },
+      "description": "Includes Rage +2."
+    },
+    {
+      "name": "+1 Glaive — raging GWM",
+      "to_hit": 4,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d10+18",
+        "type": "slashing"
+      },
+      "description": "Optional -5/+10; Reckless can supply advantage."
+    },
+    {
+      "name": "Handaxe — raging melee",
+      "to_hit": 8,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d6+7",
+        "type": "slashing"
+      },
+      "description": "Rage bonus applies to this melee Strength attack."
+    },
+    {
+      "name": "Javelin — thrown",
+      "to_hit": 8,
+      "kind": "Ranged",
+      "range": "30/120 ft.",
+      "damage": {
+        "dice": "1d6+5",
+        "type": "piercing"
+      },
+      "description": "Thrown ranged attacks do not gain Rage's melee damage bonus."
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Belt of Hill Giant Strength",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Rare allocation; attuned; sets Strength 21."
+    },
+    {
+      "name": "+1 Glaive",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Uncommon allocation; no attunement."
+    },
+    {
+      "name": "Greataxe",
+      "quantity": 1,
+      "weight": 7,
+      "description": "Free starting martial weapon; backup."
+    },
+    {
+      "name": "Handaxe",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Javelin",
+      "quantity": 4,
+      "weight": 2,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Explorer's Pack",
+      "quantity": 1,
+      "weight": 59,
+      "description": "Free pack; contents included in weight."
+    },
+    {
+      "name": "Outlander equipment",
+      "quantity": 1,
+      "weight": 34,
+      "description": "Staff, hunting trap, animal trophy, traveler clothes and pouch; 10 gp counted in cash."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased: 50 gp each; 100 gp total. "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 2,
+      "weight": 0,
+      "description": "Purchased: 50 gp each; 100 gp total. "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased: 5 gp each; 5 gp total. "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Climber's Kit",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Ball Bearings (bag of 1,000)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 10 gp each; 10 gp total. "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 377,
+      "weight": 0.02,
+      "description": "377 gp remaining; set the sheet gold counter to this amount. This row is the same money, not extra."
+    }
+  ]
+}

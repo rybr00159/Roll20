@@ -1,0 +1,288 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Mara Ironwake",
+  "class": "Fighter",
+  "subclass": "Blade Breaker",
+  "level": 7,
+  "race": "Custom Lineage (Medium humanoid)",
+  "background": "Soldier (PHB 2014; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 20,
+    "dexterity": 13,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 12,
+    "charisma": 8
+  },
+  "hp": {
+    "max": 60,
+    "current": 60,
+    "temp": 0
+  },
+  "ac": {
+    "value": 18,
+    "type": "Splint 17 + Defense 1; no shield"
+  },
+  "speed": "30 ft.; fly 30 ft. while using Winged Boots",
+  "saving_throws": [
+    "strength",
+    "constitution"
+  ],
+  "skills": {
+    "athletics": "proficient",
+    "intimidation": "proficient",
+    "perception": "proficient",
+    "insight": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Dwarvish",
+  "proficiencies": "All armor, shields, simple and martial weapons; dice set, land vehicles. Darkvision 60 feet from Custom Lineage. Defense fighting style.",
+  "bio": "A former siege sergeant who collects broken enemy weapons and writes letters for soldiers who cannot read. Mara fights to make sure the next retreat brings everyone home. Bond: her old company. Flaw: takes command before asking whether anyone wants a commander.\n\nEnter 262 gp. Track 14 maneuver points per long rest. Select advantage for Iron Punisher attacks and remember attacks against you also gain advantage. No permanent stance is encoded in the imported rolls.\n\nRemaining gold: 262 gp. See the companion build guide for full progression, equipment ledger and feature timing.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "2014 Fighter 7. Standard array Str/Dex/Con/Int/Wis/Cha: 15/13/14/10/12/8. Lineage +2 Str; racial Slasher +1 Str; Fighter 4 PAM; Fighter 6 +2 Str. Native stats: 20/13/14/10/12/8. Equipped stats: 20/13/14/10/12/8. HP 60: first Hit Die maximum, six fixed average increases and Constitution at all seven levels.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Background Soldier is the original PHB version and grants no feat. House-rule starting feat: Great Weapon Master, which gives no ability-score increase. Any racial half-feat is a separate racial choice, not the house feat. One rare and one uncommon magic item only. Additional 638 gp plus 10 gp background money; purchases 386 gp; remaining 262 gp. No resale or pre-existing summons assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Custom Lineage and feats",
+      "description": "+2 Strength and racial Slasher +1 Strength; both already included. Choose darkvision 60 feet. House feat Great Weapon Master has no stat increase; Fighter 4 grants Polearm Master; Fighter 6 grants +2 Strength.",
+      "source": "TCE; PHB 2014"
+    },
+    {
+      "name": "Great Weapon Master / Polearm Master",
+      "description": "Two glaive attacks with the Attack action. If that action attacks only with the glaive, one bonus-action shaft attack deals 1d4+7 bludgeoning. Choose -5 to hit/+10 damage separately on each heavy glaive attack, including the shaft. A critical/kill can instead enable a full glaive bonus attack. You still have only ONE bonus action. PAM also allows an opportunity attack when an enemy enters your 10-foot reach.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Slasher",
+      "description": "Once per turn a slashing hit can reduce speed by 10 feet until your next turn. A slashing critical makes the target attack with disadvantage until your next turn. The bludgeoning shaft does not trigger Slasher.",
+      "source": "TCE"
+    },
+    {
+      "name": "Martial Maneuvers",
+      "description": "14 maneuver points per LONG rest; four known maneuvers. DC 16 from Strength; the +2 weapon does not raise this DC. At most one maneuver PER TURN, even with Action Surge. Reactions on another creature's turn can use a different maneuver.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Stance: Iron Punisher",
+      "description": "Enter a known stance when initiative is rolled, or change with a bonus action. Iron Punisher gives advantage on your melee weapon attacks, but ALL attacks against you also have advantage. It is a deliberate risk, not free advantage.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Stance: Steel Serpent",
+      "description": "Your second stance, learned at Fighter 7, increases your reach by 5 feet only ON YOUR TURN. It replaces Iron Punisher. It does not increase off-turn opportunity-attack reach at this level.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Helmsplitter — 4 points",
+      "description": "On a hit, force a DC 16 Constitution save or stun the creature until the end of its next turn. If the triggering attack had advantage, the target saves with disadvantage. Normal attack damage is retained.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Refusal to Bleed — 1 point",
+      "description": "Reaction when taking damage: reduce it by 1d10+7. For 3 additional points, if caused by an attack, the same reduction applies to all damage from that attacker until your next turn.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Arcing Iron — 1 point per extra target",
+      "description": "Bonus action to empower the next melee attack this turn with additional attacks against other creatures within reach, one point per extra creature. Competes with the PAM bonus attack; each additional target is a different creature.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Wall of Blades — 2 points",
+      "description": "Reaction when hit by a weapon attack: make a weapon attack against the attacker and optionally use that attack-roll total as your AC until your next turn, including the triggering attack. Do not use GWM's penalty when you want the largest defensive result.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Unyielding Determination",
+      "description": "Advantage on saving throws made DURING YOUR OWN TURN. Does not grant advantage on every save during enemy turns.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Fighter resources",
+      "description": "Action Surge once per short/long rest grants one extra action, not a second bonus action or reaction. Second Wind heals 1d10+7 as a bonus action once per short/long rest. Defense adds +1 AC while armored. No Indomitable before Fighter 9.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Winged Boots",
+      "description": "Attuned; flying speed 30 feet, up to 4 hours stored. Each use spends at least 1 minute. Regain 2 hours for every 12 hours not used. This is item flight, not concentration.",
+      "source": "DMG 2014"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "+2 Glaive",
+      "to_hit": 10,
+      "kind": "Melee",
+      "range": "10 ft.; 15 ft. on your turn in Steel Serpent",
+      "damage": {
+        "dice": "1d10+7",
+        "type": "slashing"
+      },
+      "description": ""
+    },
+    {
+      "name": "+2 Glaive — GWM",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d10+17",
+        "type": "slashing"
+      },
+      "description": "Optional -5/+10 mode; particularly useful with Iron Punisher advantage."
+    },
+    {
+      "name": "PAM shaft",
+      "to_hit": 10,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d4+7",
+        "type": "bludgeoning"
+      },
+      "description": "Bonus action after a qualifying Attack action."
+    },
+    {
+      "name": "PAM shaft — GWM",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "10 ft.",
+      "damage": {
+        "dice": "1d4+17",
+        "type": "bludgeoning"
+      },
+      "description": "Optional -5/+10. Only one bonus action."
+    },
+    {
+      "name": "Handaxe",
+      "to_hit": 8,
+      "kind": "Melee",
+      "range": "5 ft. or thrown 20/60 ft.",
+      "damage": {
+        "dice": "1d6+5",
+        "type": "slashing"
+      },
+      "description": ""
+    }
+  ],
+  "equipment": [
+    {
+      "name": "+2 Glaive",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Rare allocation; magical, no attunement."
+    },
+    {
+      "name": "Winged Boots",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Uncommon allocation; attuned."
+    },
+    {
+      "name": "Chain Mail",
+      "quantity": 1,
+      "weight": 55,
+      "description": "Free Fighter equipment; carried spare, NOT worn."
+    },
+    {
+      "name": "Longsword",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Free martial-weapon choice; backup."
+    },
+    {
+      "name": "Shield",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Free starting shield; NOT wielded while using the glaive."
+    },
+    {
+      "name": "Handaxe",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Explorer's Pack",
+      "quantity": 1,
+      "weight": 59,
+      "description": "Free pack; its contents are included in its weight."
+    },
+    {
+      "name": "Soldier equipment",
+      "quantity": 1,
+      "weight": 4,
+      "description": "Insignia, broken-blade trophy, dice, common clothes and pouch; 10 gp included in cash total."
+    },
+    {
+      "name": "Splint Armor",
+      "quantity": 1,
+      "weight": 60,
+      "description": "Purchased: 200 gp each; 200 gp total. Worn; base AC 17, Strength requirement met."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased: 50 gp each; 100 gp total. "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased: 50 gp each; 50 gp total. "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased: 25 gp each; 25 gp total. "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased: 5 gp each; 5 gp total. "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased: 2 gp each; 2 gp total. "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Ball Bearings (bag of 1,000)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased: 1 gp each; 1 gp total. "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 262,
+      "weight": 0.02,
+      "description": "262 gp remaining; set the sheet gold counter to this amount. This row is the same money, not extra."
+    }
+  ]
+}
