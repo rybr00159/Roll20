@@ -1,6 +1,6 @@
 # ChatGPT → Roll20 (2014 5e)
 
-[Circular PC token gallery and Roll20 setup](assets/tokens/README.md) · [Download all 11 PNG tokens](assets/roll20-pc-tokens.zip)
+[Circular token gallery and Roll20 setup](assets/tokens/README.md) · [Download all 18 PNG tokens](assets/roll20-pc-tokens.zip) · [7 companion tokens only](assets/roll20-companion-tokens.zip)
 
 Generate a character in ChatGPT or Codex, paste its JSON into a Roll20 handout, and run one command to create its character sheet. No OpenAI API key, website, extension, or paid AI integration is needed.
 
