@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "Suture Attendant",
+  "size": "Medium",
+  "creature_type": "humanoid (human)",
+  "alignment": "Lawful neutral",
+  "challenge": "2",
+  "xp": 450,
+  "abilities": {
+    "strength": 16,
+    "dexterity": 12,
+    "constitution": 16,
+    "intelligence": 7,
+    "wisdom": 10,
+    "charisma": 5
+  },
+  "hp": {
+    "max": 60,
+    "formula": "8d8+24"
+  },
+  "ac": {
+    "value": 15,
+    "type": "natural armor"
+  },
+  "speed": "30 ft.",
+  "saving_throws": {
+    "constitution": 5
+  },
+  "skills": {
+    "athletics": 5
+  },
+  "senses": "darkvision 60 ft.; passive Perception 10",
+  "languages": "Common; cannot speak while its mask is sealed.",
+  "bio": "Someone Must Hurt: user-supplied homebrew for five 8th-level characters using 2014 rules. CR 2 is the source's design estimate, not a playtest result. Use this one sheet for both attendant portraits and all attendant tokens. These are altered living people, not mindless undead: they can be deceived, persuaded, charmed or spared. When an attendant falls, its mask can briefly open so it can say, 'I had a family.' Keep each token's HP independent.",
+  "traits": [
+    {
+      "name": "Living Sutures",
+      "description": "Once per turn, when the attendant hits a Medium or smaller creature with Surgical Needle, it can grapple that creature (escape DC 14). Only one creature can be grappled by this attendant at a time."
+    },
+    {
+      "name": "Death Spasm",
+      "description": "When reduced to 0 HP, its sutures burst. Every creature within 5 feet must make a DC 13 Dexterity saving throw, taking 7 (2d6) piercing damage on a failure. A successful save takes no damage."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "Makes two Surgical Needle attacks. Resolve each attack separately."
+    },
+    {
+      "name": "Surgical Needle",
+      "description": "Average hit damage 10. Living Sutures can grapple a Medium or smaller creature hit by this attack once per turn (escape DC 14); maximum one grappled creature at a time.",
+      "attack": {
+        "to_hit": 5,
+        "kind": "Melee",
+        "range": "10 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "2d6+3",
+          "type": "piercing"
+        }
+      }
+    }
+  ]
+}

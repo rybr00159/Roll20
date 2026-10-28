@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "The Rejected: Many-Handed Crawler",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "alignment": "Unaligned",
+  "challenge": "5",
+  "xp": 1800,
+  "abilities": {
+    "strength": 18,
+    "dexterity": 14,
+    "constitution": 18,
+    "intelligence": 3,
+    "wisdom": 12,
+    "charisma": 5
+  },
+  "hp": {
+    "max": 102,
+    "formula": "12d8+48"
+  },
+  "ac": {
+    "value": 15,
+    "type": "natural armor"
+  },
+  "speed": "30 ft., climb 30 ft.",
+  "skills": {
+    "athletics": 7,
+    "stealth": 5
+  },
+  "senses": "blindsight 30 ft. (blind beyond this radius); passive Perception 11",
+  "languages": "Understands Common; speaks only through Mimicry.",
+  "bio": "Someone Must Hurt: user-supplied homebrew for five 8th-level characters using 2014 rules. CR 5 is the source's design estimate, not a playtest result. This is the grasping, coiled Rejected portrait. Seize a character, then bite the held target while the partner attacks exposed adventurers. A creature held 10 feet away is beyond Bone Beak's 5-foot reach: move or drag it closer before biting. Mimicry is a horror cue, not proof of a genuine alternate timeline. This is distinct from the Spinal Crawler; do not substitute an ordinary grick.",
+  "traits": [
+    {
+      "name": "Spider Climb",
+      "description": "Climbs difficult surfaces, including upside down on ceilings, without an ability check."
+    },
+    {
+      "name": "Mimicry",
+      "description": "Can imitate short phrases and other sounds it has heard. A listener recognizes the imitation with a successful DC 14 Wisdom (Insight) check."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "Makes two Grasping Hand attacks and one Bone Beak attack. Bone Beak requires the target to be within 5 feet."
+    },
+    {
+      "name": "Grasping Hand",
+      "description": "Average hit damage 11. If the target is a Medium or smaller creature, the crawler can grapple it (escape DC 15). The grappled target is restrained until this grapple ends. The crawler can grapple only one creature at a time.",
+      "attack": {
+        "to_hit": 7,
+        "kind": "Melee",
+        "range": "10 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "2d6+4",
+          "type": "bludgeoning"
+        }
+      }
+    },
+    {
+      "name": "Bone Beak",
+      "description": "Average hit damage 13. A target grappled 10 feet away is outside this attack's reach.",
+      "attack": {
+        "to_hit": 7,
+        "kind": "Melee",
+        "range": "5 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "2d8+4",
+          "type": "piercing"
+        }
+      }
+    }
+  ]
+}

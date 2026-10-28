@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "Matron Yselle, the Anatomist of Mercy",
+  "size": "Medium",
+  "creature_type": "aberration",
+  "alignment": "Lawful evil",
+  "challenge": "10",
+  "xp": 5900,
+  "abilities": {
+    "strength": 18,
+    "dexterity": 14,
+    "constitution": 18,
+    "intelligence": 18,
+    "wisdom": 16,
+    "charisma": 16
+  },
+  "hp": {
+    "max": 170,
+    "formula": "20d8+80"
+  },
+  "ac": {
+    "value": 17,
+    "type": "natural armor"
+  },
+  "speed": "30 ft.",
+  "saving_throws": {
+    "constitution": 8,
+    "wisdom": 7
+  },
+  "skills": {
+    "deception": 7,
+    "insight": 7,
+    "medicine": 11,
+    "perception": 7,
+    "religion": 8
+  },
+  "resistances": "necrotic",
+  "senses": "darkvision 60 ft.; passive Perception 17",
+  "languages": "Common, Celestial, Deep Speech",
+  "bio": "Someone Must Hurt: user-supplied homebrew for five 8th-level characters using 2014 rules. CR 10 is the source's design estimate and assumes an active living chamber; it is not a playtest result. Both Yselle portraits use this sheet and the SAME 170-HP pool. Her combat form is revealed when negotiations fail. The Unfolding is a later one-time scream at 85 HP, not a new form with restored HP. Every listed monster feature is distinct from a spell; Yselle has no Spellcasting trait. Track the living chamber separately at initiative count 20, losing ties. Its lair actions can continue after Yselle is incapacitated or defeated while a conduit remains active. See the supplied GM reference for conduits, temporary dispelling, the suspended heart and the eight-round deadline.",
+  "traits": [
+    {
+      "name": "Legendary Resistance (1/Day)",
+      "description": "After failing a saving throw, Yselle can choose to succeed instead. Track the single daily use manually."
+    },
+    {
+      "name": "Covenant Regeneration",
+      "description": "Regains 5 HP at the END of her turn if she has at least 1 HP and at least one living-chamber conduit remains active. This benefit is unavailable while all three conduits are disabled."
+    },
+    {
+      "name": "The Unfolding",
+      "description": "The first time she is reduced to 85 HP or fewer without being incapacitated, her second mouth screams. Each creature she chooses within 30 feet that can hear her must succeed on a DC 16 Wisdom saving throw or be frightened of her until the end of that creature's next turn. This triggers once; it does not restore HP or create a second HP pool."
+    }
+  ],
+  "actions": [
+    {
+      "name": "Multiattack",
+      "description": "Makes two Bone Scalpel attacks. If Living Suture is available, she can replace one of those attacks with Living Suture."
+    },
+    {
+      "name": "Bone Scalpel",
+      "description": "Average hit damage 13 slashing plus 3 necrotic.",
+      "attack": {
+        "to_hit": 8,
+        "kind": "Melee",
+        "range": "10 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "2d8+4",
+          "type": "slashing"
+        },
+        "damage2": {
+          "dice": "1d6",
+          "type": "necrotic"
+        }
+      }
+    },
+    {
+      "name": "Living Suture (Recharge 5-6)",
+      "description": "Targets one creature she can see within 60 feet. It must make a DC 16 Dexterity saving throw. On a failure, it takes 10 (3d6) piercing damage and is restrained by magical sutures for 1 minute. A successful save avoids both effects. A creature can use its action to attempt a DC 16 Strength (Athletics) check to free itself or a creature within its reach. The sutures can instead be destroyed: AC 13, HP 15, immunity to poison and psychic damage. Destroying them ends the restraint. Resolve the save, damage and recharge manually."
+    }
+  ],
+  "reactions": [
+    {
+      "name": "Transfer Injury (3/Day)",
+      "description": "When Yselle takes damage while at least one living-chamber conduit remains active, she can use her reaction to reduce that damage by 10, to a minimum of 0. A matching wound appears on Nera; do not track Nera's HP for this transfer. Unavailable while all three conduits are disabled. Track three daily uses and reaction availability manually."
+    }
+  ],
+  "legendary_action_count": 2,
+  "legendary_actions": [
+    {
+      "name": "Surgical Step (Costs 1 Action)",
+      "description": "Moves up to half her speed (15 feet) without provoking opportunity attacks. Use at the end of another creature's turn. Only one legendary option can be used at a time; she regains her 2 legendary actions at the start of her turn."
+    },
+    {
+      "name": "Bone Scalpel (Costs 2 Actions)",
+      "description": "Spend 2 legendary actions to make one Bone Scalpel attack at the end of another creature's turn. Average hit damage 13 slashing plus 3 necrotic.",
+      "attack": {
+        "to_hit": 8,
+        "kind": "Melee",
+        "range": "10 ft.",
+        "target": "one target",
+        "damage": {
+          "dice": "2d8+4",
+          "type": "slashing"
+        },
+        "damage2": {
+          "dice": "1d6",
+          "type": "necrotic"
+        }
+      }
+    }
+  ]
+}

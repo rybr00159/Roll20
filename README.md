@@ -31,6 +31,8 @@ For complete level 7 PCs, see [Rowan, the Twilight Cleric](docs/characters/rowan
 
 [Four more PCs](docs/characters/grim-hollow-four-more.md) add an Inquisition Cleric, Gloom Stalker Ranger, Shepherd Druid, and Divination Wizard under those same restrictions, each using a Player Pack subclass or magic item.
 
+[Someone Must Hurt monsters](docs/monsters/someone-must-hurt.md) supplies four validated NPC imports, a living-chamber/ritual GM reference, and a downloadable Roll20 pack converted from the supplied level 8 homebrew statblocks.
+
 For a small character, paste a **single line** directly into chat: `!gpt-import {"schema_version":1,...}`. Use the handout route for normal characters, multiline JSON, or any chat length/formatting trouble. There is no chat chunking or remote download step.
 
 ## Commands
