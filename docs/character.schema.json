@@ -1,0 +1,1413 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Roll20 ChatGPT Import v1 — 2014 legacy sheet",
+  "description": "One character per import. Text must not contain Roll20 macro syntax. See docs/FORMAT.md for semantic constraints.",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 120,
+          "minLength": 1
+        },
+        "abilities": {
+          "type": "object",
+          "properties": {
+            "strength": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "dexterity": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "constitution": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "intelligence": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "wisdom": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "charisma": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            }
+          },
+          "required": [
+            "strength",
+            "dexterity",
+            "constitution",
+            "intelligence",
+            "wisdom",
+            "charisma"
+          ],
+          "additionalProperties": false
+        },
+        "hp": {
+          "type": "object",
+          "properties": {
+            "max": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10000
+            },
+            "current": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10000
+            },
+            "temp": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10000
+            },
+            "formula": {
+              "type": "string",
+              "maxLength": 100,
+              "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+            }
+          },
+          "required": [
+            "max"
+          ],
+          "additionalProperties": false
+        },
+        "ac": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 40
+            },
+            "type": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        },
+        "speed": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "alignment": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "bio": {
+          "type": "string",
+          "maxLength": 10000
+        },
+        "languages": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "traits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "source": {
+                "type": "string",
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "name",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "spells": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "level": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9
+              },
+              "school": {
+                "type": "string",
+                "enum": [
+                  "abjuration",
+                  "conjuration",
+                  "divination",
+                  "enchantment",
+                  "evocation",
+                  "illusion",
+                  "necromancy",
+                  "transmutation"
+                ]
+              },
+              "casting_time": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "range": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "target": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "components": {
+                "type": "string",
+                "maxLength": 40
+              },
+              "materials": {
+                "type": "string",
+                "maxLength": 500
+              },
+              "duration": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "concentration": {
+                "type": "boolean"
+              },
+              "ritual": {
+                "type": "boolean"
+              },
+              "prepared": {
+                "type": "boolean"
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "higher_levels": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "name",
+              "level",
+              "school",
+              "casting_time",
+              "range",
+              "components",
+              "duration",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 150
+        },
+        "spellcasting": {
+          "type": "object",
+          "properties": {
+            "ability": {
+              "type": "string",
+              "enum": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "save_dc": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 40
+            },
+            "attack_bonus": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "2": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "3": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "4": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "5": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "6": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "7": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "8": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "9": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "ability"
+          ],
+          "additionalProperties": false
+        },
+        "proficiency_bonus": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 10
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "pc"
+          ]
+        },
+        "class": {
+          "type": "string",
+          "enum": [
+            "Barbarian",
+            "Bard",
+            "Cleric",
+            "Druid",
+            "Fighter",
+            "Monk",
+            "Paladin",
+            "Ranger",
+            "Rogue",
+            "Sorcerer",
+            "Warlock",
+            "Wizard"
+          ]
+        },
+        "level": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 20
+        },
+        "race": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "subclass": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "background": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "xp": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000000
+        },
+        "saving_throws": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "enum": [
+              "strength",
+              "dexterity",
+              "constitution",
+              "intelligence",
+              "wisdom",
+              "charisma"
+            ]
+          },
+          "maxItems": 6,
+          "uniqueItems": true
+        },
+        "skills": {
+          "type": "object",
+          "properties": {
+            "acrobatics": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "animal_handling": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "arcana": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "athletics": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "deception": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "history": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "insight": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "intimidation": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "investigation": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "medicine": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "nature": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "perception": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "performance": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "persuasion": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "religion": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "sleight_of_hand": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "stealth": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            },
+            "survival": {
+              "type": "string",
+              "enum": [
+                "proficient",
+                "expertise"
+              ]
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "attacks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "to_hit": {
+                "type": "integer",
+                "minimum": -20,
+                "maximum": 50
+              },
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "Melee",
+                  "Ranged"
+                ]
+              },
+              "range": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "target": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "damage": {
+                "type": "object",
+                "properties": {
+                  "dice": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                  },
+                  "type": {
+                    "type": "string",
+                    "maxLength": 80
+                  }
+                },
+                "required": [
+                  "dice",
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              "damage2": {
+                "type": "object",
+                "properties": {
+                  "dice": {
+                    "type": "string",
+                    "maxLength": 100,
+                    "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                  },
+                  "type": {
+                    "type": "string",
+                    "maxLength": 80
+                  }
+                },
+                "required": [
+                  "dice",
+                  "type"
+                ],
+                "additionalProperties": false
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              }
+            },
+            "required": [
+              "name",
+              "to_hit",
+              "damage"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "proficiencies": {
+          "type": "string",
+          "maxLength": 2000
+        },
+        "equipment": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "quantity": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 10000
+              },
+              "weight": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 10000
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              }
+            },
+            "required": [
+              "name"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        }
+      },
+      "required": [
+        "schema_version",
+        "type",
+        "name",
+        "abilities",
+        "hp",
+        "ac",
+        "speed",
+        "class",
+        "level",
+        "saving_throws"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "integer",
+          "enum": [
+            1
+          ]
+        },
+        "name": {
+          "type": "string",
+          "maxLength": 120,
+          "minLength": 1
+        },
+        "abilities": {
+          "type": "object",
+          "properties": {
+            "strength": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "dexterity": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "constitution": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "intelligence": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "wisdom": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            },
+            "charisma": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 30
+            }
+          },
+          "required": [
+            "strength",
+            "dexterity",
+            "constitution",
+            "intelligence",
+            "wisdom",
+            "charisma"
+          ],
+          "additionalProperties": false
+        },
+        "hp": {
+          "type": "object",
+          "properties": {
+            "max": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 10000
+            },
+            "current": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10000
+            },
+            "temp": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 10000
+            },
+            "formula": {
+              "type": "string",
+              "maxLength": 100,
+              "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+            }
+          },
+          "required": [
+            "max"
+          ],
+          "additionalProperties": false
+        },
+        "ac": {
+          "type": "object",
+          "properties": {
+            "value": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 40
+            },
+            "type": {
+              "type": "string",
+              "maxLength": 200
+            }
+          },
+          "required": [
+            "value"
+          ],
+          "additionalProperties": false
+        },
+        "speed": {
+          "type": "string",
+          "maxLength": 200
+        },
+        "alignment": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "bio": {
+          "type": "string",
+          "maxLength": 10000
+        },
+        "languages": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "traits": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "source": {
+                "type": "string",
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "name",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "spells": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "level": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9
+              },
+              "school": {
+                "type": "string",
+                "enum": [
+                  "abjuration",
+                  "conjuration",
+                  "divination",
+                  "enchantment",
+                  "evocation",
+                  "illusion",
+                  "necromancy",
+                  "transmutation"
+                ]
+              },
+              "casting_time": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "range": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "target": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "components": {
+                "type": "string",
+                "maxLength": 40
+              },
+              "materials": {
+                "type": "string",
+                "maxLength": 500
+              },
+              "duration": {
+                "type": "string",
+                "maxLength": 120
+              },
+              "concentration": {
+                "type": "boolean"
+              },
+              "ritual": {
+                "type": "boolean"
+              },
+              "prepared": {
+                "type": "boolean"
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "higher_levels": {
+                "type": "string",
+                "maxLength": 2000
+              }
+            },
+            "required": [
+              "name",
+              "level",
+              "school",
+              "casting_time",
+              "range",
+              "components",
+              "duration",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 150
+        },
+        "spellcasting": {
+          "type": "object",
+          "properties": {
+            "ability": {
+              "type": "string",
+              "enum": [
+                "strength",
+                "dexterity",
+                "constitution",
+                "intelligence",
+                "wisdom",
+                "charisma"
+              ]
+            },
+            "save_dc": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 40
+            },
+            "attack_bonus": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "slots": {
+              "type": "object",
+              "properties": {
+                "1": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "2": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "3": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "4": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "5": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "6": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "7": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "8": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                },
+                "9": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 20
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "ability"
+          ],
+          "additionalProperties": false
+        },
+        "proficiency_bonus": {
+          "type": "integer",
+          "minimum": 2,
+          "maximum": 10
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "npc"
+          ]
+        },
+        "size": {
+          "type": "string",
+          "maxLength": 40
+        },
+        "creature_type": {
+          "type": "string",
+          "maxLength": 120
+        },
+        "challenge": {
+          "type": "string",
+          "enum": [
+            "0",
+            "1/8",
+            "1/4",
+            "1/2",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30"
+          ]
+        },
+        "xp": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 10000000
+        },
+        "senses": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "vulnerabilities": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "resistances": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "immunities": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "condition_immunities": {
+          "type": "string",
+          "maxLength": 500
+        },
+        "saving_throws": {
+          "type": "object",
+          "properties": {
+            "strength": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "dexterity": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "constitution": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "intelligence": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "wisdom": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "charisma": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "skills": {
+          "type": "object",
+          "properties": {
+            "acrobatics": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "animal_handling": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "arcana": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "athletics": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "deception": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "history": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "insight": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "intimidation": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "investigation": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "medicine": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "nature": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "perception": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "performance": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "persuasion": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "religion": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "sleight_of_hand": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "stealth": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            },
+            "survival": {
+              "type": "integer",
+              "minimum": -20,
+              "maximum": 50
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "attack": {
+                "type": "object",
+                "properties": {
+                  "to_hit": {
+                    "type": "integer",
+                    "minimum": -20,
+                    "maximum": 50
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "Melee",
+                      "Ranged"
+                    ]
+                  },
+                  "range": {
+                    "type": "string",
+                    "maxLength": 120
+                  },
+                  "target": {
+                    "type": "string",
+                    "maxLength": 120
+                  },
+                  "damage": {
+                    "type": "object",
+                    "properties": {
+                      "dice": {
+                        "type": "string",
+                        "maxLength": 100,
+                        "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                      },
+                      "type": {
+                        "type": "string",
+                        "maxLength": 80
+                      }
+                    },
+                    "required": [
+                      "dice",
+                      "type"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "damage2": {
+                    "type": "object",
+                    "properties": {
+                      "dice": {
+                        "type": "string",
+                        "maxLength": 100,
+                        "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                      },
+                      "type": {
+                        "type": "string",
+                        "maxLength": 80
+                      }
+                    },
+                    "required": [
+                      "dice",
+                      "type"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "to_hit",
+                  "damage"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "name",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "reactions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "source": {
+                "type": "string",
+                "maxLength": 120
+              }
+            },
+            "required": [
+              "name",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "legendary_actions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string",
+                "maxLength": 120,
+                "minLength": 1
+              },
+              "description": {
+                "type": "string",
+                "maxLength": 4000
+              },
+              "attack": {
+                "type": "object",
+                "properties": {
+                  "to_hit": {
+                    "type": "integer",
+                    "minimum": -20,
+                    "maximum": 50
+                  },
+                  "kind": {
+                    "type": "string",
+                    "enum": [
+                      "Melee",
+                      "Ranged"
+                    ]
+                  },
+                  "range": {
+                    "type": "string",
+                    "maxLength": 120
+                  },
+                  "target": {
+                    "type": "string",
+                    "maxLength": 120
+                  },
+                  "damage": {
+                    "type": "object",
+                    "properties": {
+                      "dice": {
+                        "type": "string",
+                        "maxLength": 100,
+                        "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                      },
+                      "type": {
+                        "type": "string",
+                        "maxLength": 80
+                      }
+                    },
+                    "required": [
+                      "dice",
+                      "type"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "damage2": {
+                    "type": "object",
+                    "properties": {
+                      "dice": {
+                        "type": "string",
+                        "maxLength": 100,
+                        "pattern": "^(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5})(?:\\s*[+-]\\s*(?:[1-9][0-9]{0,2}d(?:4|6|8|10|12|20|100)|[0-9]{1,5}))*$"
+                      },
+                      "type": {
+                        "type": "string",
+                        "maxLength": 80
+                      }
+                    },
+                    "required": [
+                      "dice",
+                      "type"
+                    ],
+                    "additionalProperties": false
+                  }
+                },
+                "required": [
+                  "to_hit",
+                  "damage"
+                ],
+                "additionalProperties": false
+              }
+            },
+            "required": [
+              "name",
+              "description"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 100
+        },
+        "legendary_action_count": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 10
+        }
+      },
+      "required": [
+        "schema_version",
+        "type",
+        "name",
+        "abilities",
+        "hp",
+        "ac",
+        "speed",
+        "size",
+        "creature_type",
+        "challenge"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

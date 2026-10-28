@@ -1,0 +1,13 @@
+{
+  "name": "roll20-chatgpt-importer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Import generated PCs and NPCs into the 2014 D&D 5E by Roll20 sheet",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test",
+    "schema": "node tools/schema.js",
+    "validate": "node tools/validate.js"
+  },
+  "license": "MIT"
+}

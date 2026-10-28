@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Mira Fenwick",
+  "class": "Wizard",
+  "subclass": "School of Evocation",
+  "level": 3,
+  "race": "Human",
+  "background": "Sage",
+  "alignment": "Neutral good",
+  "abilities": { "strength": 8, "dexterity": 14, "constitution": 14, "intelligence": 16, "wisdom": 12, "charisma": 10 },
+  "hp": { "max": 20, "current": 20, "formula": "3d6+6" },
+  "ac": { "value": 12, "type": "Unarmored; no mage armor active" },
+  "speed": "30 ft.",
+  "saving_throws": ["intelligence", "wisdom"],
+  "skills": { "arcana": "proficient", "history": "proficient", "insight": "proficient", "investigation": "proficient" },
+  "languages": "Common, Draconic, Elvish, Dwarvish",
+  "proficiencies": "Daggers, darts, slings, quarterstaffs, light crossbows",
+  "bio": "A practical traveling scholar who collects stories about vanished libraries. Example built with 2014 rules; spell descriptions are short play reminders.",
+  "traits": [
+    { "name": "Arcane Recovery", "source": "Class", "description": "Once per day after a short rest, recover expended spell slots totaling up to 2 levels; none may be level 6 or higher." },
+    { "name": "Sculpt Spells", "source": "Subclass", "description": "When casting an evocation spell affecting creatures you can see, choose up to 1 + spell level of them. They automatically succeed on their saving throws and take no damage if they would normally take half." }
+  ],
+  "attacks": [
+    { "name": "Dagger", "to_hit": 4, "kind": "Melee", "range": "5 ft. or thrown 20/60 ft.", "damage": { "dice": "1d4+2", "type": "piercing" } },
+    { "name": "Fire Bolt", "to_hit": 5, "kind": "Ranged", "range": "120 ft.", "damage": { "dice": "1d10", "type": "fire" }, "description": "A flammable object hit by this spell ignites if it is not worn or carried." }
+  ],
+  "equipment": [
+    { "name": "Dagger", "quantity": 1, "weight": 1 },
+    { "name": "Spellbook", "quantity": 1, "weight": 3, "description": "Contains the eight leveled spells listed below." },
+    { "name": "Arcane focus (crystal)", "quantity": 1, "weight": 1 },
+    { "name": "Explorer's pack", "quantity": 1, "weight": 59, "description": "Use the 2014 equipment list for contents." }
+  ],
+  "spellcasting": { "ability": "intelligence", "save_dc": 13, "attack_bonus": 5, "slots": { "1": 4, "2": 2 } },
+  "spells": [
+    { "name": "Fire Bolt", "level": 0, "school": "evocation", "casting_time": "1 action", "range": "120 ft.", "components": "V, S", "duration": "Instantaneous", "description": "Use the Fire Bolt attack on the Core tab: +5 to hit, 1d10 fire." },
+    { "name": "Light", "level": 0, "school": "evocation", "casting_time": "1 action", "range": "Touch", "components": "V, M", "materials": "A firefly or phosphorescent moss", "duration": "1 hour", "description": "One object sheds bright light for 20 feet and dim light for 20 more. A hostile holder can make a Dexterity save to avoid the spell." },
+    { "name": "Mage Hand", "level": 0, "school": "conjuration", "casting_time": "1 action", "range": "30 ft.", "components": "V, S", "duration": "1 minute", "description": "Create a spectral hand; use your action to manipulate a small object. It cannot attack, activate magic items, or carry more than 10 pounds." },
+    { "name": "Magic Missile", "level": 1, "school": "evocation", "casting_time": "1 action", "range": "120 ft.", "components": "V, S", "duration": "Instantaneous", "prepared": true, "description": "Create three darts, each dealing 1d4+1 force damage to a visible creature you choose. Darts strike simultaneously.", "higher_levels": "One additional dart per slot level above 1st." },
+    { "name": "Shield", "level": 1, "school": "abjuration", "casting_time": "1 reaction, when hit by an attack or targeted by magic missile", "range": "Self", "components": "V, S", "duration": "1 round", "prepared": true, "description": "Gain +5 AC until the start of your next turn, including against the triggering attack, and take no damage from magic missile." },
+    { "name": "Mage Armor", "level": 1, "school": "abjuration", "casting_time": "1 action", "range": "Touch", "components": "V, S, M", "materials": "A piece of cured leather", "duration": "8 hours", "prepared": true, "description": "A willing unarmored creature's base AC becomes 13 + Dexterity modifier. Manually set Mira's custom AC to 15 while active." },
+    { "name": "Detect Magic", "level": 1, "school": "divination", "casting_time": "1 action", "range": "Self", "components": "V, S", "duration": "Up to 10 minutes", "concentration": true, "ritual": true, "description": "Sense magic within 30 feet; use an action to see an aura around a visible magical creature or object and learn its school, if any. Barriers can block detection." },
+    { "name": "Burning Hands", "level": 1, "school": "evocation", "casting_time": "1 action", "range": "Self (15-foot cone)", "components": "V, S", "duration": "Instantaneous", "prepared": true, "description": "Creatures in the cone make a Dexterity save against DC 13, taking 3d6 fire on a failure or half on success. Unattended flammable objects ignite.", "higher_levels": "Add 1d6 fire per slot level above 1st." },
+    { "name": "Find Familiar", "level": 1, "school": "conjuration", "casting_time": "1 hour", "range": "10 ft.", "components": "V, S, M", "materials": "10 gp of charcoal, incense, and herbs, consumed in a brass brazier", "duration": "Instantaneous", "ritual": true, "description": "Summon an animal-form spirit familiar. It acts independently and cannot attack. Consult the 2014 spell for senses, touch-spell delivery, forms, and dismissal." },
+    { "name": "Misty Step", "level": 2, "school": "conjuration", "casting_time": "1 bonus action", "range": "Self", "components": "V", "duration": "Instantaneous", "prepared": true, "description": "Teleport up to 30 feet to an unoccupied space you can see." },
+    { "name": "Scorching Ray", "level": 2, "school": "evocation", "casting_time": "1 action", "range": "120 ft.", "components": "V, S", "duration": "Instantaneous", "prepared": true, "description": "Make three separate ranged spell attacks at +5 to hit. Each hit deals 2d6 fire damage. Choose targets separately.", "higher_levels": "One additional ray per slot level above 2nd." }
+  ]
+}

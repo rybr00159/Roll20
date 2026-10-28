@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "type": "npc",
+  "name": "Ash Road Captain",
+  "size": "Medium",
+  "creature_type": "humanoid (human)",
+  "alignment": "Lawful neutral",
+  "challenge": "2",
+  "xp": 450,
+  "abilities": { "strength": 14, "dexterity": 16, "constitution": 14, "intelligence": 11, "wisdom": 13, "charisma": 12 },
+  "hp": { "max": 45, "formula": "7d8+14" },
+  "ac": { "value": 15, "type": "studded leather" },
+  "speed": "30 ft.",
+  "saving_throws": { "dexterity": 5, "wisdom": 3 },
+  "skills": { "athletics": 4, "perception": 3, "stealth": 5 },
+  "senses": "passive Perception 13",
+  "languages": "Common, Goblin",
+  "bio": "An original roadwarden NPC for a 2014 game. Challenge rating is a suggested encounter estimate, not a computed guarantee.",
+  "traits": [
+    { "name": "Roadwise", "description": "The captain has advantage on Wisdom (Survival) checks to track creatures along a road." }
+  ],
+  "actions": [
+    { "name": "Multiattack", "description": "The captain makes two shortsword attacks or two shortbow attacks." },
+    { "name": "Shortsword", "description": "", "attack": { "to_hit": 5, "kind": "Melee", "range": "5 ft.", "target": "one target", "damage": { "dice": "1d6+3", "type": "piercing" } } },
+    { "name": "Shortbow", "description": "", "attack": { "to_hit": 5, "kind": "Ranged", "range": "80/320 ft.", "target": "one target", "damage": { "dice": "1d6+3", "type": "piercing" } } }
+  ],
+  "reactions": [
+    { "name": "Parry", "description": "The captain adds 2 to AC against one melee attack that would hit it. The captain must see the attacker and be wielding a melee weapon." }
+  ]
+}
