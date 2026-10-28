@@ -27,6 +27,8 @@ Try the included examples first:
 
 For complete level 7 PCs, see [Rowan, the Twilight Cleric](docs/characters/rowan-ashveil-level7.md) and [five Grim Hollow characters](docs/characters/grim-hollow-five.md). Each guide includes a validated import file, ability-score progression, magic items, spending ledger, tactics, and required manual sheet settings. The Grim Hollow group uses backgrounds without feats and house-rule feats without ability-score increases.
 
+[Four more PCs](docs/characters/grim-hollow-four-more.md) add an Inquisition Cleric, Gloom Stalker Ranger, Shepherd Druid, and Divination Wizard under those same restrictions, each using a Player Pack subclass or magic item.
+
 For a small character, paste a **single line** directly into chat: `!gpt-import {"schema_version":1,...}`. Use the handout route for normal characters, multiline JSON, or any chat length/formatting trouble. There is no chat chunking or remote download step.
 
 ## Commands

@@ -1,0 +1,744 @@
+{
+  "constraints": {
+    "level": 7,
+    "rules": "2014 5e",
+    "standard_array": [
+      15,
+      14,
+      13,
+      12,
+      10,
+      8
+    ],
+    "additional_gp": 638,
+    "feat_backgrounds": false,
+    "house_feat_ability_increase": false,
+    "grim_hollow_source": "GrimHollowPlayerPack",
+    "source_revision": "069a70e491d5c4df83f6e94e8f48abb75cc0d49b"
+  },
+  "characters": [
+    {
+      "slug": "pc-elin-voss-level7",
+      "base_array": {
+        "strength": 8,
+        "dexterity": 13,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 15,
+        "charisma": 10
+      },
+      "ability_changes": {
+        "wisdom": 5
+      },
+      "native_abilities": {
+        "strength": 8,
+        "dexterity": 13,
+        "constitution": 14,
+        "intelligence": 12,
+        "wisdom": 20,
+        "charisma": 10
+      },
+      "item_overrides": {
+        "strength": 19
+      },
+      "house_feat": "War Caster",
+      "feats": [
+        {
+          "name": "Fey Touched",
+          "source": "lineage",
+          "ability_increase": {
+            "wisdom": 1
+          }
+        },
+        {
+          "name": "War Caster",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "+2 Amulet of the Devout",
+          "rarity": "rare",
+          "attunement": true,
+          "source": "TCE"
+        },
+        {
+          "name": "Gauntlets of Ogre Power",
+          "rarity": "uncommon",
+          "attunement": true,
+          "source": "DMG"
+        }
+      ],
+      "background": "Sage",
+      "background_source": "PHB",
+      "background_gp": 10,
+      "spent_gp": 636,
+      "remaining_gp": 12,
+      "purchases": [
+        {
+          "name": "Splint Armor",
+          "quantity": 1,
+          "unit_gp": 200,
+          "notes": "Worn. Gauntlets meet Strength requirement.",
+          "weight": 60
+        },
+        {
+          "name": "Diamond worth 300 gp",
+          "quantity": 1,
+          "unit_gp": 300,
+          "notes": "Consumed by one Revivify; listed spell component.",
+          "weight": 0
+        },
+        {
+          "name": "Pearl worth 100 gp",
+          "quantity": 1,
+          "unit_gp": 100,
+          "notes": "Reusable Identify component.",
+          "weight": 0
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        }
+      ],
+      "metadata": {
+        "role": "Armored investigator and anti-spell protector",
+        "progression": "Custom Lineage +2 Wis; racial Fey Touched +1 Wis; Cleric 4 +2 Wis. Gauntlets replace native Str 8 with 19.",
+        "grim_hollow": {
+          "kind": "subclass",
+          "name": "Inquisition Domain",
+          "features": [
+            "Witch Hunter's Strike",
+            "Channel Divinity: Spell Shield",
+            "Rebuke Invoker"
+          ]
+        },
+        "import_notes": "Enter 12 gp. Apply War Caster concentration advantage manually. Spell DC 18 and AC 19 are included. Rebuke Invoker has an omitted DC in the source: default recommendation DC 16 is a declared table assumption, not printed rules. Track five Witch Hunter strikes, five Rebukes and the shared Channel Divinity pool.",
+        "tactics": [
+          "Use bonus-action Spell Shield before a dangerous spell exchange; its protection depends on retaining its particular temporary HP. It is a feature, so an action spell can be cast on the same turn.",
+          "Against a concentrating caster, the weapon Strike adds 2d8 force and may yield temporary HP if concentration breaks. Against ordinary groups, Spirit Guardians is more efficient.",
+          "Save the reaction for the most important Rebuke or War Caster opportunity spell. Rebuke deals damage; it is not an automatic Counterspell."
+        ],
+        "assumptions": [
+          "The available Player Pack entry omits Rebuke Invoker's save DC. DC 16 is a conservative proposed ruling for this non-spell feature. The GM should settle it, including slotless leveled spellcasting; the build does not silently treat the spell DC 18 as the printed answer."
+        ],
+        "spell_groups": {
+          "Four cleric cantrips": [
+            "Guidance",
+            "Toll the Dead",
+            "Sacred Flame",
+            "Thaumaturgy"
+          ],
+          "Twelve cleric preparations": [
+            "Bless",
+            "Healing Word",
+            "Protection from Evil and Good",
+            "Sanctuary",
+            "Command",
+            "Aid",
+            "Lesser Restoration",
+            "Spiritual Weapon",
+            "Spirit Guardians",
+            "Revivify",
+            "Death Ward",
+            "Freedom of Movement"
+          ],
+          "Eight always-prepared Inquisition spells": [
+            "Detect Magic",
+            "Identify",
+            "See Invisibility",
+            "Silence",
+            "Dispel Magic",
+            "Remove Curse",
+            "Arcane Eye",
+            "Locate Creature"
+          ],
+          "Racial feat spells": [
+            "Misty Step",
+            "Dissonant Whispers"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pc-kesh-mossarrow-level7",
+      "base_array": {
+        "strength": 12,
+        "dexterity": 15,
+        "constitution": 13,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 8
+      },
+      "ability_changes": {
+        "dexterity": 3,
+        "constitution": 1
+      },
+      "native_abilities": {
+        "strength": 12,
+        "dexterity": 18,
+        "constitution": 14,
+        "intelligence": 10,
+        "wisdom": 14,
+        "charisma": 8
+      },
+      "item_overrides": {},
+      "house_feat": "Sharpshooter",
+      "feats": [
+        {
+          "name": "Sharpshooter",
+          "source": "house",
+          "ability_increase": {}
+        },
+        {
+          "name": "Piercer",
+          "source": "Ranger 4",
+          "ability_increase": {
+            "dexterity": 1
+          }
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "+2 Longbow",
+          "rarity": "rare",
+          "attunement": false,
+          "source": "DMG"
+        },
+        {
+          "name": "Carvaloth Scale Armor",
+          "rarity": "uncommon",
+          "attunement": false,
+          "source": "GrimHollowPlayerPack"
+        }
+      ],
+      "background": "Folk Hero",
+      "background_source": "PHB",
+      "background_gp": 10,
+      "spent_gp": 228,
+      "remaining_gp": 420,
+      "purchases": [
+        {
+          "name": "Arrows (20)",
+          "quantity": 4,
+          "unit_gp": 1,
+          "notes": "80 additional; 100 arrows including starting ammunition.",
+          "weight": 1
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 1,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Climber's Kit",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Silk Rope (50 feet)",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "",
+          "weight": 5
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 2,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 2,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Totem",
+          "quantity": 1,
+          "unit_gp": 1,
+          "notes": "Druidic focus for optional Ranger Spellcasting Focus.",
+          "weight": 0
+        }
+      ],
+      "metadata": {
+        "role": "Ambush archer and camouflaged scout",
+        "progression": "MPMM bugbear +2 Dex/+1 Con; Ranger 4 Piercer +1 Dex. No racial feat; house Sharpshooter has no ASI.",
+        "grim_hollow": {
+          "kind": "item",
+          "name": "Carvaloth Scale Armor"
+        },
+        "capacity_multiplier": 2,
+        "import_notes": "Enter 420 gp. Set initiative modifier +2 beyond Dexterity, giving +6 total for Dread Ambusher. Canny expertise and Iron Mind saves are included. Carvaloth sight-hiding rolls are normally straight after cancelling its normal armor disadvantage. Add +10 for Pass without Trace only while active. Track first-turn bonuses individually.",
+        "tactics": [
+          "Act before your target to add bugbear damage to each hit; take three shots on the first Attack action and add the Dread Ambusher d8 only to its extra shot. Use Sharpshooter selectively.",
+          "Use darkness against darkvision-dependent enemies and camouflage against sight-based detection. Neither grants automatic surprise or hiding.",
+          "Use Pass without Trace to help the group approach, or Spike Growth for terrain control. These conflict with Favored Foe and Zephyr Strike concentration."
+        ],
+        "assumptions": [],
+        "spell_groups": {
+          "Five normal Ranger spells known": [
+            "Goodberry",
+            "Absorb Elements",
+            "Zephyr Strike",
+            "Pass without Trace",
+            "Spike Growth"
+          ],
+          "Two Gloom Stalker spells": [
+            "Disguise Self",
+            "Rope Trick"
+          ],
+          "Two Primal Awareness spells, each free once/long rest": [
+            "Speak with Animals",
+            "Beast Sense"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pc-bryn-reedwhistle-level7",
+      "base_array": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 8,
+        "intelligence": 13,
+        "wisdom": 15,
+        "charisma": 12
+      },
+      "ability_changes": {
+        "wisdom": 5
+      },
+      "native_abilities": {
+        "strength": 10,
+        "dexterity": 14,
+        "constitution": 8,
+        "intelligence": 13,
+        "wisdom": 20,
+        "charisma": 12
+      },
+      "item_overrides": {
+        "constitution": 19
+      },
+      "house_feat": "War Caster",
+      "feats": [
+        {
+          "name": "Skill Expert",
+          "source": "lineage",
+          "ability_increase": {
+            "wisdom": 1
+          }
+        },
+        {
+          "name": "War Caster",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "Amulet of Health",
+          "rarity": "rare",
+          "attunement": true,
+          "source": "DMG"
+        },
+        {
+          "name": "Telltale Heart",
+          "rarity": "uncommon",
+          "attunement": true,
+          "source": "GrimHollowPlayerPack"
+        }
+      ],
+      "background": "Hermit",
+      "background_source": "PHB",
+      "background_gp": 5,
+      "spent_gp": 496,
+      "remaining_gp": 147,
+      "purchases": [
+        {
+          "name": "Hide Armor",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "Worn nonmetal armor, base AC 12.",
+          "weight": 12
+        },
+        {
+          "name": "Diamond worth 300 gp",
+          "quantity": 1,
+          "unit_gp": 300,
+          "notes": "Consumed by one Revivify.",
+          "weight": 0
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Climber's Kit",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Caltrops (bag of 20)",
+          "quantity": 2,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": 2
+        },
+        {
+          "name": "Ball Bearings (bag of 1,000)",
+          "quantity": 2,
+          "unit_gp": 1,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Silk Rope (50 feet)",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "",
+          "weight": 5
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Cartographer's Tools",
+          "quantity": 1,
+          "unit_gp": 15,
+          "notes": "Proficient after replacing duplicate herbalism-kit proficiency.",
+          "weight": null
+        }
+      ],
+      "metadata": {
+        "role": "Summoner, healer and fear-resistant wilderness expert",
+        "progression": "Lineage +2 Wis; racial Skill Expert +1 Wis; Druid 4 +2 Wis. Amulet replaces native Con 8 with 19.",
+        "grim_hollow": {
+          "kind": "item",
+          "name": "Telltale Heart"
+        },
+        "import_notes": "Enter 147 gp. Amulet Constitution and AC 16 are already included; apply War Caster concentration advantage and the heart's fear-save advantage conditionally. Track Spirit Totem and Wild Shape. No summons, familiar, Aid or temporary HP start active. Native Constitution without the amulet is 8.",
+        "tactics": [
+          "Conjure allies using a DM-selected legal beast option. Summon Bear Spirit afterward so chosen creatures in its initial aura receive 12 temporary HP.",
+          "Use Unicorn Spirit instead for group recovery: a slot Healing Word restores its normal amount and adds 7 HP to each chosen creature in the aura. Goodberry eating does not activate it.",
+          "Keep concentration protected, use terrain/cover, and avoid replacing Conjure Animals with another concentration spell unintentionally. Use the heart against fear and on important lore checks."
+        ],
+        "assumptions": [],
+        "spell_groups": {
+          "Three Druid cantrips": [
+            "Guidance",
+            "Thorn Whip",
+            "Produce Flame"
+          ],
+          "Twelve prepared Druid spells": [
+            "Goodberry",
+            "Healing Word",
+            "Absorb Elements",
+            "Pass without Trace",
+            "Lesser Restoration",
+            "Spike Growth",
+            "Conjure Animals",
+            "Dispel Magic",
+            "Plant Growth",
+            "Revivify",
+            "Polymorph",
+            "Freedom of Movement"
+          ]
+        }
+      }
+    },
+    {
+      "slug": "pc-lio-glassmere-level7",
+      "base_array": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 15,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "ability_changes": {
+        "intelligence": 5
+      },
+      "native_abilities": {
+        "strength": 8,
+        "dexterity": 14,
+        "constitution": 13,
+        "intelligence": 20,
+        "wisdom": 12,
+        "charisma": 10
+      },
+      "item_overrides": {},
+      "house_feat": "Alert",
+      "feats": [
+        {
+          "name": "Fey Touched",
+          "source": "lineage",
+          "ability_increase": {
+            "intelligence": 1
+          }
+        },
+        {
+          "name": "Alert",
+          "source": "house",
+          "ability_increase": {}
+        }
+      ],
+      "magic_items": [
+        {
+          "name": "+2 Arcane Grimoire",
+          "rarity": "rare",
+          "attunement": true,
+          "source": "TCE"
+        },
+        {
+          "name": "Ring of Hidden Desire",
+          "rarity": "uncommon",
+          "attunement": true,
+          "source": "GrimHollowPlayerPack"
+        }
+      ],
+      "background": "Cloistered Scholar",
+      "background_source": "SCAG",
+      "background_gp": 10,
+      "spent_gp": 349,
+      "remaining_gp": 299,
+      "purchases": [
+        {
+          "name": "Pearl worth 100 gp",
+          "quantity": 1,
+          "unit_gp": 100,
+          "notes": "Reusable Identify component.",
+          "weight": 0
+        },
+        {
+          "name": "Find Familiar material bundle",
+          "quantity": 3,
+          "unit_gp": 10,
+          "notes": "One 10 gp bundle consumed per normal familiar casting.",
+          "weight": 0
+        },
+        {
+          "name": "Potion of Healing",
+          "quantity": 2,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Holy Water (flask)",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Healer's Kit",
+          "quantity": 1,
+          "unit_gp": 5,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Antitoxin (vial)",
+          "quantity": 1,
+          "unit_gp": 50,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Climber's Kit",
+          "quantity": 1,
+          "unit_gp": 25,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Silk Rope (50 feet)",
+          "quantity": 1,
+          "unit_gp": 10,
+          "notes": "",
+          "weight": 5
+        },
+        {
+          "name": "Crowbar",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        },
+        {
+          "name": "Manacles",
+          "quantity": 1,
+          "unit_gp": 2,
+          "notes": "",
+          "weight": null
+        }
+      ],
+      "metadata": {
+        "role": "Fast-acting fate controller and investigator",
+        "progression": "Lineage +2 Int; racial Fey Touched +1 Int; Wizard 4 +2 Int. House Alert has no ASI. No stat-setting item.",
+        "grim_hollow": {
+          "kind": "item",
+          "name": "Ring of Hidden Desire"
+        },
+        "import_notes": "Enter 299 gp. Set initiative bonus +5 beyond Dexterity, giving +7 total. Grimoire bonuses require holding it and are included. AC starts at 12; change to 15 after casting Mage Armor and spend its slot. No buff or familiar starts active. Record two Portent dice, ring charges and five-level Arcane Recovery manually.",
+        "tactics": [
+          "Use +7 initiative to land Web, Hypnotic Pattern, Slow or Polymorph early. Use a LOW recorded Portent before an important enemy save, not after seeing its roll.",
+          "For investigation, a suitably low Portent can help the ring reveal a target's desire; the item only reveals information and does not compel behavior.",
+          "After expending slots, a slotted See Invisibility can recover a 1st-level slot through Expert Divination. Use Arcane Recovery separately once per day, up to five total slot levels."
+        ],
+        "assumptions": [],
+        "spell_groups": {
+          "Four Wizard cantrips": [
+            "Fire Bolt",
+            "Mage Hand",
+            "Minor Illusion",
+            "Mind Sliver"
+          ],
+          "Eighteen class spellbook spells": [
+            "Find Familiar",
+            "Mage Armor",
+            "Shield",
+            "Absorb Elements",
+            "Detect Magic",
+            "Identify",
+            "Sleep",
+            "Magic Missile",
+            "Web",
+            "Suggestion",
+            "See Invisibility",
+            "Mirror Image",
+            "Hypnotic Pattern",
+            "Counterspell",
+            "Fireball",
+            "Slow",
+            "Polymorph",
+            "Dimension Door"
+          ],
+          "Twelve prepared book spells": [
+            "Mage Armor",
+            "Shield",
+            "Absorb Elements",
+            "Web",
+            "See Invisibility",
+            "Mirror Image",
+            "Hypnotic Pattern",
+            "Counterspell",
+            "Fireball",
+            "Slow",
+            "Polymorph",
+            "Dimension Door"
+          ],
+          "Racial feat spells, outside preparations": [
+            "Misty Step",
+            "Silvery Barbs"
+          ]
+        }
+      }
+    }
+  ]
+}

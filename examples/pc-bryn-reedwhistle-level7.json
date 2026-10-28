@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Bryn Reedwhistle",
+  "class": "Druid",
+  "subclass": "Circle of the Shepherd",
+  "level": 7,
+  "race": "Custom Lineage (Medium humanoid)",
+  "background": "Hermit (PHB; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 10,
+    "dexterity": 14,
+    "constitution": 19,
+    "intelligence": 13,
+    "wisdom": 20,
+    "charisma": 12
+  },
+  "hp": {
+    "max": 66,
+    "current": 66,
+    "temp": 0
+  },
+  "ac": {
+    "value": 16,
+    "type": "Hide armor 12 + Dex 2 + wooden shield 2"
+  },
+  "speed": "30 ft.",
+  "saving_throws": [
+    "intelligence",
+    "wisdom"
+  ],
+  "skills": {
+    "nature": "proficient",
+    "animal_handling": "proficient",
+    "medicine": "proficient",
+    "religion": "proficient",
+    "perception": "expertise",
+    "stealth": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Elvish, Halfling, Sylvan, Druidic",
+  "proficiencies": "Light/medium nonmetal armor, shields; druid weapon list. Herbalism kit; cartographer's tools substituted for duplicate Hermit herbalism proficiency under the PHB duplicate-proficiency rule.",
+  "bio": "A marsh hermit who maps vanished roads and shelters frightened animals. Bryn carries a little bloodstone heart found in the ruins of a drowned village, treating its alien whispers as clues rather than commands. Bond: return the village's survivors to safe ground. Flaw: assumes every frightened creature can be soothed.\n\nEnter 147 gp. Amulet Constitution and AC 16 are already included; apply War Caster concentration advantage and the heart's fear-save advantage conditionally. Track Spirit Totem and Wild Shape. No summons, familiar, Aid or temporary HP start active. Native Constitution without the amulet is 8.\n\nRemaining gold: 147 gp. See the build guide for native scores, sources, spending and conditional features.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "Lineage +2 Wis; racial Skill Expert +1 Wis; Druid 4 +2 Wis. Amulet replaces native Con 8 with 19. Standard-array Str/Dex/Con/Int/Wis/Cha: 10/14/8/13/15/12. Native: 10/14/8/13/20/12. Equipped: 10/14/19/13/20/12. Average HP 66 at level 7.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "War Caster is the original 2014 house-rule feat and gives no ability-score increase. Hermit (PHB) grants no feat. Other feat/stat increases have their separate sources recorded. One Rare and one Uncommon item, no Renaissance/Futuristic equipment. Additional 638 gp plus background 5 gp; spent 496, remaining 147. No gear resale, free summoned creatures, pre-cast buffs or paid extra spells assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Lineage and Skill Expert",
+      "description": "Lineage +2 Wisdom; racial Skill Expert +1 Wisdom, Stealth proficiency and Perception expertise. Variable Trait grants the Perception proficiency being doubled. Druid 4 adds +2 Wisdom. House War Caster has no stat increase. No racial darkvision.",
+      "source": "TCE"
+    },
+    {
+      "name": "War Caster and amulet",
+      "description": "Advantage on concentration saves caused by damage. Amulet sets native Constitution 8 to 19: equipped HP 66, without it HP maximum 31. Equipped concentration is +4 with advantage; this is not advantage on every Constitution save.",
+      "source": "PHB 2014; DMG 2014"
+    },
+    {
+      "name": "Telltale Heart",
+      "description": "Uncommon, attuned. While on your person, advantage on saves against becoming frightened. If frightened without any save, receive a DC 15 Wisdom save to avoid that condition. While HOLDING the stone, once per long rest gain advantage on one Intelligence ability check. These are item features, not bonuses to spell DC.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Speech of the Woods",
+      "description": "Speak/read/write Sylvan and communicate with beasts through their noises and motions. This does not make beasts automatically friendly or able to discuss complex ideas.",
+      "source": "XGE"
+    },
+    {
+      "name": "Spirit Totem",
+      "description": "Bonus action: place a spirit within 60 feet, with a 30-foot-radius aura. Lasts 1 minute or until incapacitated; one use per short/long rest. Move it up to 60 feet with another bonus action. It does not require concentration. Choose Bear, Hawk or Unicorn when summoned.",
+      "source": "XGE"
+    },
+    {
+      "name": "Bear Spirit",
+      "description": "Creatures chosen in the aura WHEN IT APPEARS gain 12 temporary HP. Allies in the aura have advantage on Strength checks/saves. This is not a repeating Twilight Sanctuary-style refresh and does not stack temporary HP. Summon creatures before placing Bear if you want them to receive its initial HP.",
+      "source": "XGE"
+    },
+    {
+      "name": "Unicorn and Hawk Spirits",
+      "description": "Unicorn: when you CAST a slot spell that restores HP, chosen creatures in the aura also regain 7 HP; helps detect creatures in the aura. Eating a Goodberry or drinking a potion does not trigger it. Hawk: use your reaction to give advantage to one attack against a target in the aura, and allies in the aura have Perception advantage.",
+      "source": "XGE"
+    },
+    {
+      "name": "Mighty Summoner",
+      "description": "Beasts/fey summoned or created by your spells gain +2 HP per actual Hit Die, not per CR or character level. Natural weapons count as magical for overcoming resistance/immunity. Example: an ordinary wolf with 2 Hit Dice gains +4 HP, becoming 15 HP, before any Bear temporary HP. No bonus accuracy or automatic attack advantage is added.",
+      "source": "XGE"
+    },
+    {
+      "name": "Conjure Animals choices",
+      "description": "Use 2014 Conjure Animals and its group initiative, not the Carrion Raven maneuver. Choose a number/CR option; official guidance leaves actual species to the DM. Eight wolves are a request, not a guaranteed default. No animals start present and no concentration buff is pre-applied.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Wild Shape / Wild Companion",
+      "description": "Two Wild Shape uses per short/long rest. At Druid 7, normal shapes are CR 1/2 or less, no flying, and last up to 3 hours. You cannot cast spells in these forms. Optional Tasha Wild Companion spends a use to cast Find Familiar as an action without material; the familiar is fey and temporary, up to 3 hours. No familiar starts present.",
+      "source": "PHB 2014; TCE"
+    },
+    {
+      "name": "Spells and components",
+      "description": "Three normal Druid cantrips and 12 prepared spells; no Shepherd bonus spell list. Tasha's optional expanded Druid list permits Revivify. Carry one consumed 300 gp diamond. Hide armor and shield are nonmetal. Druid rituals must be prepared.",
+      "source": "PHB 2014; TCE"
+    },
+    {
+      "name": "Discovery",
+      "description": "Hermit background: knows that certain marsh paths follow ancient seasonal tide cycles, a story hook to develop with the GM. This grants no unlisted stat bonus, spell, item or feat.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Wild Shape item handling",
+      "description": "Mighty Summoner does not add HP to your own Wild Shape form. Use the beast form's physical statistics and normal Wild Shape rules. Do not assume the amulet continues setting Constitution to 19 if it merges into the form; whether equipment can be worn by a form depends on its anatomy.",
+      "source": "PHB 2014; XGE"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Thorn Whip",
+      "to_hit": 8,
+      "kind": "Melee",
+      "range": "30 ft.",
+      "damage": {
+        "dice": "2d6",
+        "type": "piercing"
+      },
+      "description": "Melee spell attack; Large-or-smaller target can be pulled up to 10 feet."
+    },
+    {
+      "name": "Produce Flame",
+      "to_hit": 8,
+      "kind": "Ranged",
+      "range": "30 ft.",
+      "damage": {
+        "dice": "2d8",
+        "type": "fire"
+      },
+      "description": "Ranged spell attack when using the cantrip."
+    },
+    {
+      "name": "Quarterstaff — one-handed",
+      "to_hit": 3,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d6",
+        "type": "bludgeoning"
+      },
+      "description": "No Shillelagh is known; uses Strength 10, not Wisdom."
+    }
+  ],
+  "equipment": [
+    {
+      "name": "Amulet of Health",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Rare allocation; attuned. Native Constitution 8; equipped 19."
+    },
+    {
+      "name": "Telltale Heart",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Player Pack uncommon allocation; attuned."
+    },
+    {
+      "name": "Shield",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Free WOODEN Druid starting shield."
+    },
+    {
+      "name": "Quarterstaff",
+      "quantity": 1,
+      "weight": 4,
+      "description": "Free starting simple melee weapon."
+    },
+    {
+      "name": "Leather Armor",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Free starting armor; spare NOT worn."
+    },
+    {
+      "name": "Explorer's Pack",
+      "quantity": 1,
+      "weight": 59,
+      "description": "Free pack, contents already in weight."
+    },
+    {
+      "name": "Totem",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Free Druid focus."
+    },
+    {
+      "name": "Hermit equipment",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Scroll case of notes, winter blanket, common clothes, herbalism kit; background 5 gp in total."
+    },
+    {
+      "name": "Hide Armor",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Purchased for 10 gp each (10 gp total). Worn nonmetal armor, base AC 12."
+    },
+    {
+      "name": "Diamond worth 300 gp",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 300 gp each (300 gp total). Consumed by one Revivify."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased for 50 gp each (100 gp total). "
+    },
+    {
+      "name": "Climber's Kit",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased for 5 gp each (5 gp total). "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Purchased for 1 gp each (2 gp total). "
+    },
+    {
+      "name": "Ball Bearings (bag of 1,000)",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Purchased for 1 gp each (2 gp total). "
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 10 gp each (10 gp total). "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 2 gp each (2 gp total). "
+    },
+    {
+      "name": "Cartographer's Tools",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased for 15 gp each (15 gp total). Proficient after replacing duplicate herbalism-kit proficiency."
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 147,
+      "weight": 0.02,
+      "description": "147 gp remain. Set the gold counter; this row records the same money, not extra."
+    }
+  ],
+  "spellcasting": {
+    "ability": "wisdom",
+    "save_dc": 16,
+    "attack_bonus": 8,
+    "slots": {
+      "1": 4,
+      "2": 3,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "spells": [
+    {
+      "name": "Guidance",
+      "level": 0,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Up to 1 minute",
+      "description": "Touch a willing creature; add 1d4 to one ability check before the duration ends. Concentration: do not cast while preserving another concentration spell.",
+      "concentration": true
+    },
+    {
+      "name": "Thorn Whip",
+      "level": 0,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Melee spell attack +8 with 30-foot range; 2d6 piercing and optionally pull a Large-or-smaller target up to 10 feet toward you. It is a melee spell attack even when the target is distant.",
+      "materials": "the stem of a plant with thorns"
+    },
+    {
+      "name": "Produce Flame",
+      "level": 0,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "10 minutes",
+      "description": "Hold a flame providing light for up to 10 minutes, or make a ranged spell attack +8 within 30 feet for 2d8 fire. Attacking ends the spell. No concentration."
+    },
+    {
+      "name": "Goodberry",
+      "level": 1,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Create ten berries, each nourishing a creature for a day and restoring 1 HP when eaten using an action. Unused berries lose their magic after 24 hours. Eating a berry is not casting a slot spell and does not trigger Unicorn Spirit healing.",
+      "materials": "a sprig of mistletoe",
+      "prepared": true
+    },
+    {
+      "name": "Healing Word",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 bonus action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Bonus action; restore 1d4+5 HP to a visible creature, except undead/constructs. +1d4 per slot level above 1st. The 2014 bonus-action spell restriction applies.",
+      "prepared": true
+    },
+    {
+      "name": "Absorb Elements",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 reaction; when taking a listed elemental damage type",
+      "range": "Self",
+      "components": "S",
+      "duration": "1 round",
+      "description": "Reaction to acid, cold, fire, lightning or thunder damage: gain resistance to that triggering type until your next turn. Your first MELEE attack hit on that next turn adds 1d6 of the type, +1d6 per higher slot. It does not add damage to an arrow.",
+      "prepared": true
+    },
+    {
+      "name": "Pass without Trace",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Concentration; you and chosen companions near you gain +10 Dexterity (Stealth) and leave no tracks except by magic. It does not make you automatically hidden, invisible, or silent.",
+      "materials": "ashes from a burned leaf of mistletoe and a sprig of spruce",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Touch a creature and end one disease or one instance of blindness, deafness, paralysis or poisoning.",
+      "prepared": true
+    },
+    {
+      "name": "Spike Growth",
+      "level": 2,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "150 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 10 minutes",
+      "description": "A 20-foot-radius area becomes difficult terrain; a creature moving into/within takes 2d4 piercing per 5 feet. Forced movement also triggers damage if it actually moves the creature through the area. Concentration; use the full spell's terrain-camouflage rules.",
+      "materials": "seven sharp thorns or seven small twigs, each sharpened to a point",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Conjure Animals",
+      "level": 3,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S",
+      "duration": "Up to 1 hour",
+      "description": "Choose a number/CR option, not a guaranteed species. Under the official guidance the DM chooses the actual beasts; eight CR 1/4 wolves may be requested, not assumed. Beasts use group initiative and verbal commands require no action. Shepherd adds 2 HP per Hit Die and makes natural weapons count as magical for overcoming resistance/immunity. Concentration.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Dispel Magic",
+      "level": 3,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Automatically end spells no higher than the slot used (at least level 3). Higher-level spells require an ability check at +5, DC 10 + spell level. A spell DC/attack item bonus does not improve this check.",
+      "prepared": true
+    },
+    {
+      "name": "Plant Growth",
+      "level": 3,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "150 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "One action creates a 100-foot-radius area of overgrowth, using four feet of movement per foot traveled, with chosen exclusions. An 8-hour casting enriches land instead. No concentration; requires normal plants in the area.",
+      "prepared": true
+    },
+    {
+      "name": "Revivify",
+      "level": 3,
+      "school": "necromancy",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Touch a creature dead no longer than 1 minute; return it with 1 HP. Cannot reverse old-age death or restore missing parts. Consumes diamonds worth 300 gp; one diamond is carried.",
+      "materials": "diamonds worth 300 gp, which the spell consumes",
+      "prepared": true
+    },
+    {
+      "name": "Polymorph",
+      "level": 4,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Transform a creature into a beast of CR no greater than its CR/character level. An unwilling target saves Wisdom DC 16. Use 2014 replacement-statistics, equipment and reversion rules. Concentration; cannot maintain this with another concentration spell.",
+      "materials": "a caterpillar cocoon",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Freedom of Movement",
+      "level": 4,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour",
+      "description": "Target ignores difficult terrain and magical speed reduction, paralysis and restraint. Spend 5 feet of movement to escape nonmagical restraints or grapples. Underwater movement/attacks avoid their normal penalties. No concentration.",
+      "materials": "a leather strap, bound around the arm or a similar appendage",
+      "prepared": true
+    }
+  ]
+}

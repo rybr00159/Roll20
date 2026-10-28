@@ -1,0 +1,545 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Lio Glassmere",
+  "class": "Wizard",
+  "subclass": "School of Divination",
+  "level": 7,
+  "race": "Custom Lineage (Medium humanoid)",
+  "background": "Cloistered Scholar (SCAG; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 8,
+    "dexterity": 14,
+    "constitution": 13,
+    "intelligence": 20,
+    "wisdom": 12,
+    "charisma": 10
+  },
+  "hp": {
+    "max": 37,
+    "current": 37,
+    "temp": 0
+  },
+  "ac": {
+    "value": 12,
+    "type": "Unarmored 10 + Dex 2; Mage Armor makes 15 after casting"
+  },
+  "speed": "30 ft.",
+  "saving_throws": [
+    "intelligence",
+    "wisdom"
+  ],
+  "skills": {
+    "history": "proficient",
+    "arcana": "proficient",
+    "investigation": "proficient",
+    "insight": "proficient",
+    "perception": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Elvish, Draconic, Celestial",
+  "proficiencies": "Wizard weapons; no armor or shield proficiency. History/Arcana from background; Investigation/Insight from Wizard; Perception from lineage. School of Divination, not Chronurgy.",
+  "bio": "A scholar who records dreams in the margins of borrowed books. Lio believes that knowing a person's secret wish can prevent a tragedy, but worries that intervention may create the fate they fear. Bond: return every borrowed book. Flaw: over-explains choices that others would leave to intuition.\n\nEnter 299 gp. Set initiative bonus +5 beyond Dexterity, giving +7 total. Grimoire bonuses require holding it and are included. AC starts at 12; change to 15 after casting Mage Armor and spend its slot. No buff or familiar starts active. Record two Portent dice, ring charges and five-level Arcane Recovery manually.\n\nRemaining gold: 299 gp. See the build guide for native scores, sources, spending and conditional features.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "Lineage +2 Int; racial Fey Touched +1 Int; Wizard 4 +2 Int. House Alert has no ASI. No stat-setting item. Standard-array Str/Dex/Con/Int/Wis/Cha: 8/14/13/15/12/10. Native: 8/14/13/20/12/10. Equipped: 8/14/13/20/12/10. Average HP 37 at level 7.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Alert is the original 2014 house-rule feat and gives no ability-score increase. Cloistered Scholar (SCAG) grants no feat. Other feat/stat increases have their separate sources recorded. One Rare and one Uncommon item, no Renaissance/Futuristic equipment. Additional 638 gp plus background 10 gp; spent 349, remaining 299. No gear resale, free summoned creatures, pre-cast buffs or paid extra spells assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Lineage and feat sources",
+      "description": "Lineage +2 Intelligence; racial Fey Touched +1 Intelligence; Wizard 4 +2 Intelligence. House Alert is its original 2014 version and grants no stat increase. Variable Trait Perception; no racial darkvision. Medium humanoid; use normal carrying capacity. Medium size allows Dimension Door to carry Medium or smaller companions.",
+      "source": "TCE; PHB 2014"
+    },
+    {
+      "name": "Alert",
+      "description": "Initiative +5 beyond Dexterity, total +7. While conscious cannot be surprised. Unseen attackers do not gain attack advantage against you merely because you cannot see them. This does not let you see invisible creatures or target them with sight-requiring spells.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Portent",
+      "description": "After a long rest roll and record TWO d20s. Before an attack/check/save roll by yourself or a creature you can see, substitute one recorded result; at most once per turn. Each result is spent once, and unused results expire at the next long rest. Choose BEFORE the roll, not after seeing failure. Does not bypass Legendary Resistance.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Expert Divination",
+      "description": "Casting a divination spell of level 2 or higher WITH A SLOT recovers one expended slot of a lower level (never above 5). Prepared See Invisibility with a 2nd-level slot can recover a 1st-level slot. Ritual casting and the ring's item activation do not spend slots and do not trigger recovery.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Ring of Hidden Desire",
+      "description": "Uncommon, attuned. Action, visible creature: DC 13 Wisdom save. On failure learn its darkest desire; no automatic friendship, truthfulness or obedience. On success that creature is immune to the ring for 24 hours. Intelligence 3 or less is unaffected. Three uses per day, restored at MIDNIGHT, not long rest. The grimoire does not raise this item's fixed DC.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "+2 Arcane Grimoire",
+      "description": "Attuned, HOLD the grimoire for +2 to Wizard spell attacks/DC: +10 and DC 18. It can be focus and spellbook. Arcane Recovery restores FIVE total slot levels at level 7 rather than four, once per day after a short rest; e.g. a 4th-level and a 1st-level slot. It does not improve Counterspell ability checks or non-spell item DCs.",
+      "source": "TCE p.120"
+    },
+    {
+      "name": "Spellbook and preparation",
+      "description": "Eighteen free class spellbook spells: six at Wizard 1, plus two each at Wizard 2-7. Twelve prepared each day from Intelligence 20 + Wizard 7. Fey Touched adds Misty Step and Silvery Barbs outside that count. Four Wizard cantrips. No paid extra spells are assumed.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Rituals and components",
+      "description": "Find Familiar, Detect Magic and Identify can be cast as rituals from the spellbook without preparation. Identify needs the carried reusable 100 gp pearl; each familiar casting consumes a 10 gp incense/charcoal/herb bundle, three carried. No familiar starts present. Normal new level-up spells do not cost gold to learn.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Defenses and concentration",
+      "description": "Unbuffed AC 12 and HP 37. Mage Armor costs a slot and raises AC to 15 for 8 hours; Shield reaction adds 5 temporarily. No War Caster, Resilient or Constitution save proficiency is granted. Concentration is +1; positioning, cover, Shield, Absorb Elements and a precommitted Portent can protect a key spell. Do not claim automatic concentration advantage.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Fey Touched and spell limits",
+      "description": "Misty Step and Silvery Barbs each have one free use per long rest and can also use slots. Intelligence is their ability. The 2014 bonus-action spell rule applies to Misty Step; another spell that turn must be a one-action cantrip. One concentration spell at a time.",
+      "source": "TCE; SCC"
+    },
+    {
+      "name": "Library Access",
+      "description": "Cloistered Scholar background: access to your cloister's library and helpful connections at other libraries, subject to their normal rules. No feat or ability increase.",
+      "source": "SCAG"
+    },
+    {
+      "name": "Divination Savant and Cantrip Formulas",
+      "description": "Divination Savant halves the gold and time needed to copy divination spells into your book: normally 25 gp and 1 hour per spell level instead of 50 gp and 2 hours. No paid copies are assumed here. Optional Tasha Cantrip Formulas allows replacing one known Wizard cantrip after a long rest.",
+      "source": "PHB 2014; TCE"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Fire Bolt",
+      "to_hit": 10,
+      "kind": "Ranged",
+      "range": "120 ft.",
+      "damage": {
+        "dice": "2d10",
+        "type": "fire"
+      },
+      "description": "Requires holding the attuned grimoire for the +2 spell attack bonus."
+    },
+    {
+      "name": "Dagger",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "5 ft. or thrown 20/60 ft.",
+      "damage": {
+        "dice": "1d4+2",
+        "type": "piercing"
+      },
+      "description": ""
+    }
+  ],
+  "equipment": [
+    {
+      "name": "+2 Arcane Grimoire",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Rare allocation, attuned; hold for spell DC/attack bonuses. Use as your spellbook."
+    },
+    {
+      "name": "Ring of Hidden Desire",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Player Pack uncommon allocation; attuned."
+    },
+    {
+      "name": "Dagger",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free starting weapon."
+    },
+    {
+      "name": "Crystal",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free arcane focus, backup."
+    },
+    {
+      "name": "Scholar's Pack",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Free pack; contents included in weight."
+    },
+    {
+      "name": "Spellbook",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Free ordinary starting spellbook; spare book, no duplicate free copies of learned spells assumed."
+    },
+    {
+      "name": "Cloistered Scholar equipment",
+      "quantity": 1,
+      "weight": 9,
+      "description": "Robes, pouch, quill, ink, parchment, penknife, borrowed book; background 10 gp included in cash."
+    },
+    {
+      "name": "Pearl worth 100 gp",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 100 gp each (100 gp total). Reusable Identify component."
+    },
+    {
+      "name": "Find Familiar material bundle",
+      "quantity": 3,
+      "weight": 0,
+      "description": "Purchased for 10 gp each (30 gp total). One 10 gp bundle consumed per normal familiar casting."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased for 50 gp each (100 gp total). "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased for 5 gp each (5 gp total). "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 50 gp each (50 gp total). "
+    },
+    {
+      "name": "Climber's Kit",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 10 gp each (10 gp total). "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 2 gp each (2 gp total). "
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased for 2 gp each (2 gp total). "
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 299,
+      "weight": 0.02,
+      "description": "299 gp remain. Set the gold counter; this row records the same money, not extra."
+    }
+  ],
+  "spellcasting": {
+    "ability": "intelligence",
+    "save_dc": 18,
+    "attack_bonus": 10,
+    "slots": {
+      "1": 4,
+      "2": 3,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "spells": [
+    {
+      "name": "Fire Bolt",
+      "level": 0,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Ranged spell attack +10; 2d10 fire. A flammable object hit ignites if not worn or carried."
+    },
+    {
+      "name": "Mage Hand",
+      "level": 0,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S",
+      "duration": "1 minute",
+      "description": "Create a spectral hand for simple object manipulation. Cannot attack, activate magic items or carry over 10 pounds."
+    },
+    {
+      "name": "Minor Illusion",
+      "level": 0,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "S, M",
+      "duration": "1 minute",
+      "description": "Create a sound or static image of an object in a 5-foot cube. Physical interaction can reveal the image; inspection uses spell DC 18.",
+      "materials": "a bit of fleece"
+    },
+    {
+      "name": "Mind Sliver",
+      "level": 0,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "1 round",
+      "description": "Intelligence save DC 18; on failure 2d6 psychic and subtract 1d4 from the next saving throw before the end of your next turn. No concentration."
+    },
+    {
+      "name": "Find Familiar",
+      "level": 1,
+      "school": "conjuration",
+      "casting_time": "1 hour",
+      "range": "10 ft.",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Normal version is a 1-hour ritual-capable spell costing 10 gp consumed material per casting. The familiar cannot attack. No familiar starts present. The optional druid Wild Companion version instead spends Wild Shape, uses an action and no material, and is temporary.",
+      "materials": "10 gp worth of charcoal, incense, and herbs that must be consumed by fire in a brass brazier",
+      "ritual": true,
+      "prepared": false
+    },
+    {
+      "name": "Mage Armor",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "8 hours",
+      "description": "Set unarmored base AC to 13 + Dexterity for 8 hours, no concentration. Lio's AC becomes 15 after casting; it starts at 12 with no buff active. Costs a slot.",
+      "materials": "a piece of cured leather",
+      "prepared": true
+    },
+    {
+      "name": "Shield",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 reaction; when hit by an attack or targeted by Magic Missile",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "1 round",
+      "description": "Reaction to a hit or Magic Missile: +5 AC until your next turn, including against the triggering attack, and immunity to Magic Missile damage. AC is 17 without Mage Armor, or 20 with Mage Armor.",
+      "prepared": true
+    },
+    {
+      "name": "Absorb Elements",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 reaction; when taking a listed elemental damage type",
+      "range": "Self",
+      "components": "S",
+      "duration": "1 round",
+      "description": "Reaction to acid, cold, fire, lightning or thunder damage: gain resistance to that triggering type until your next turn. Your first MELEE attack hit on that next turn adds 1d6 of the type, +1d6 per higher slot. It does not add damage to an arrow.",
+      "prepared": true
+    },
+    {
+      "name": "Detect Magic",
+      "level": 1,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "Up to 10 minutes",
+      "description": "Sense nearby magic, then use an action to examine a visible aura and learn its school if any. Concentration and normal barrier limits. Ritual if your class permits.",
+      "concentration": true,
+      "ritual": true,
+      "prepared": false
+    },
+    {
+      "name": "Identify",
+      "level": 1,
+      "school": "divination",
+      "casting_time": "1 minute",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Learn properties and use of a touched magic item or which spells affect a touched creature. Requires a reusable pearl worth 100 gp; a focus cannot replace that cost. Does not automatically reveal every curse. Ritual if your class permits.",
+      "materials": "a pearl worth at least 100 gp and an owl feather",
+      "ritual": true,
+      "prepared": false
+    },
+    {
+      "name": "Sleep",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "90 ft.",
+      "components": "V, S, M",
+      "duration": "1 minute",
+      "description": "2014 version: roll 5d8 affected HP, selecting creatures in ascending order of current HP. Unconscious until damage or an action wakes them; undead and charm-immune creatures unaffected. No save or concentration. +2d8 per higher slot.",
+      "materials": "a pinch of fine sand, rose petals, or a cricket",
+      "prepared": false
+    },
+    {
+      "name": "Magic Missile",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Three darts, each dealing 1d4+1 force, strike visible targets simultaneously. Add one dart per higher slot. Use the 2014 rules.",
+      "prepared": false
+    },
+    {
+      "name": "Web",
+      "level": 2,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Concentration. A 20-foot cube of webs creates difficult terrain; qualifying creatures save Dexterity DC 18 or are restrained, with later escape checks and fire interactions from the full spell.",
+      "materials": "a bit of spiderweb",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Suggestion",
+      "level": 2,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, M",
+      "duration": "Up to 8 hours",
+      "description": "Give a reasonable-sounding course of action to a creature that hears and understands you. Wisdom save DC 18; charm-immune creatures are unaffected. Concentration.",
+      "materials": "a snake's tongue and either a bit of honeycomb or a drop of sweet oil",
+      "concentration": true,
+      "prepared": false
+    },
+    {
+      "name": "See Invisibility",
+      "level": 2,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "1 hour",
+      "description": "See invisible creatures/objects as visible and see into the Ethereal Plane to 60 feet. No concentration.",
+      "materials": "a pinch of talc and a small sprinkling of powdered silver",
+      "prepared": true
+    },
+    {
+      "name": "Mirror Image",
+      "level": 2,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "1 minute",
+      "description": "Create three duplicates using the 2014 redirection rules. This is not concentration and does not change your AC; duplicates have AC 12.",
+      "prepared": true
+    },
+    {
+      "name": "Hypnotic Pattern",
+      "level": 3,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "S, M",
+      "duration": "Up to 1 minute",
+      "description": "Wisdom save DC 18 in a 30-foot cube. On failure, charm/incapacitation and speed 0 until damage or another creature's action wakes the target. Concentration; charm-immune creatures unaffected.",
+      "materials": "a glowing stick of incense or a crystal vial filled with phosphorescent material",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Counterspell",
+      "level": 3,
+      "school": "abjuration",
+      "casting_time": "1 reaction; when a visible creature casts within 60 feet",
+      "range": "60 ft.",
+      "components": "S",
+      "duration": "Instantaneous",
+      "description": "Reaction to a visible creature casting within 60 feet. Automatically interrupt a spell no higher than the slot used, otherwise Intelligence check +5 against DC 10 + its level. The grimoire does not add to the check. Requires seeing the casting and follows the original 2014 rules.",
+      "prepared": true
+    },
+    {
+      "name": "Fireball",
+      "level": 3,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "150 ft.",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Dexterity save DC 18 in a 20-foot-radius sphere: 8d6 fire on failure, half on success. +1d6 per higher slot. It can harm allies; no Sculpt Spells is available.",
+      "materials": "a tiny ball of bat guano and sulfur",
+      "prepared": true
+    },
+    {
+      "name": "Slow",
+      "level": 3,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 minute",
+      "description": "Up to six chosen creatures in a 40-foot cube save Wisdom DC 18. Slowed targets suffer the 2014 speed, AC, Dexterity-save and action restrictions, repeating saves at turn end. Concentration.",
+      "materials": "a drop of molasses",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Polymorph",
+      "level": 4,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Transform a creature into a beast of CR no greater than its CR/character level. An unwilling target saves Wisdom DC 18. Use 2014 replacement-statistics, equipment and reversion rules. Concentration; cannot maintain this with another concentration spell.",
+      "materials": "a caterpillar cocoon",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Dimension Door",
+      "level": 4,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "500 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Teleport yourself and optionally one willing creature of your size or smaller up to 500 feet, following the occupied-destination and passenger rules. No concentration.",
+      "prepared": true
+    },
+    {
+      "name": "Misty Step",
+      "level": 2,
+      "school": "conjuration",
+      "casting_time": "1 bonus action",
+      "range": "Self",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Fey Touched spell: bonus-action teleport up to 30 feet to a visible unoccupied space. One free cast per long rest or use slots. Separate from normal preparation limits.",
+      "prepared": true
+    },
+    {
+      "name": "Silvery Barbs",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 reaction; when a visible creature within 60 ft. succeeds on an attack, check or save",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Fey Touched choice. Reaction to a visible creature within 60 feet succeeding on an attack, check or save: it rerolls the d20 and uses the lower result. Give a DIFFERENT chosen creature within 60 feet advantage on its next attack/check/save within 1 minute. One free cast per long rest or slots.",
+      "prepared": true
+    }
+  ]
+}

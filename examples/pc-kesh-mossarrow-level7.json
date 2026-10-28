@@ -1,0 +1,425 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Kesh Mossarrow",
+  "class": "Ranger",
+  "subclass": "Gloom Stalker",
+  "level": 7,
+  "race": "Bugbear (Monsters of the Multiverse, 2022)",
+  "background": "Folk Hero (PHB; no feat)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 12,
+    "dexterity": 18,
+    "constitution": 14,
+    "intelligence": 10,
+    "wisdom": 14,
+    "charisma": 8
+  },
+  "hp": {
+    "max": 60,
+    "current": 60,
+    "temp": 0
+  },
+  "ac": {
+    "value": 16,
+    "type": "Carvaloth scale 14 + Dexterity capped at 2; no shield"
+  },
+  "speed": "35 ft. walk/climb/swim; 45 ft. walking on first combat turn",
+  "saving_throws": [
+    "strength",
+    "dexterity",
+    "wisdom"
+  ],
+  "skills": {
+    "animal_handling": "proficient",
+    "survival": "proficient",
+    "perception": "proficient",
+    "insight": "proficient",
+    "investigation": "proficient",
+    "stealth": "expertise"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Goblin, Elvish, Dwarvish",
+  "proficiencies": "Light/medium armor, shields, simple/martial weapons; carpenter's tools, land vehicles. Archery style. Stealth from bugbear; Canny expertise. Druidic focus allowed by optional Tasha feature.",
+  "bio": "A quiet bugbear who rescued a village from its own lord's hunters and now keeps its forest paths safe. Kesh marks arrows with little carved leaves and dislikes being praised where everyone can hear. Bond: the families who hid him. Flaw: judges strangers by how quietly they move.\n\nEnter 420 gp. Set initiative modifier +2 beyond Dexterity, giving +6 total for Dread Ambusher. Canny expertise and Iron Mind saves are included. Carvaloth sight-hiding rolls are normally straight after cancelling its normal armor disadvantage. Add +10 for Pass without Trace only while active. Track first-turn bonuses individually.\n\nRemaining gold: 420 gp. See the build guide for native scores, sources, spending and conditional features.",
+  "traits": [
+    {
+      "name": "Build audit",
+      "description": "MPMM bugbear +2 Dex/+1 Con; Ranger 4 Piercer +1 Dex. No racial feat; house Sharpshooter has no ASI. Standard-array Str/Dex/Con/Int/Wis/Cha: 12/15/13/10/14/8. Native: 12/18/14/10/14/8. Equipped: 12/18/14/10/14/8. Average HP 60 at level 7.",
+      "source": "Build"
+    },
+    {
+      "name": "Campaign constraints",
+      "description": "Sharpshooter is the original 2014 house-rule feat and gives no ability-score increase. Folk Hero (PHB) grants no feat. Other feat/stat increases have their separate sources recorded. One Rare and one Uncommon item, no Renaissance/Futuristic equipment. Additional 638 gp plus background 10 gp; spent 228, remaining 420. No gear resale, free summoned creatures, pre-cast buffs or paid extra spells assumed.",
+      "source": "Campaign"
+    },
+    {
+      "name": "Race and feat progression",
+      "description": "MPMM bugbear chooses +2 Dexterity and +1 Constitution. Ranger 4 Piercer adds +1 Dexterity. House Sharpshooter is the original 2014 feat with no stat increase. Final Dex 18, Con 14. No racial feat.",
+      "source": "MPMM; TCE; PHB 2014"
+    },
+    {
+      "name": "Surprise Attack",
+      "description": "MPMM bugbear: on an attack-roll hit, +2d6 damage if the target has not yet taken a turn in the current combat. Not limited to once per turn, and does not require the surprised condition. Stops applying to a target after it has taken its first turn.",
+      "source": "MPMM"
+    },
+    {
+      "name": "Bugbear traits",
+      "description": "Darkvision 60 feet becomes 90 with Umbral Sight. Fey Ancestry gives advantage against charm. Long-Limbed adds 5 feet only to melee attacks on your turn, not bow range or off-turn reach. Powerful Build doubles ordinary carrying capacity. Sneaky grants Stealth and fitting in Small spaces without squeezing.",
+      "source": "MPMM"
+    },
+    {
+      "name": "Dread Ambusher",
+      "description": "Add Wisdom +2 to initiative for total +6. First combat turn: +10 feet walking speed and one extra weapon attack as part of the Attack action, with +1d8 damage on that additional attack if it hits. Normally two attacks; three on that first turn.",
+      "source": "XGE"
+    },
+    {
+      "name": "Umbral Sight and Iron Mind",
+      "description": "In darkness, invisible to a creature relying on darkvision to see you there; not universal invisibility or automatic hiding. Darkvision 90 feet. Ranger 7 Iron Mind grants Wisdom saving throw proficiency, already included.",
+      "source": "XGE"
+    },
+    {
+      "name": "Carvaloth Scale Armor",
+      "description": "Uncommon, no attunement. AC 14 + Dex capped at 2 = 16 without shield. Observers have disadvantage on Perception checks to SEE you. Its advantage on Stealth to hide FROM SIGHT cancels scale mail's normal Stealth disadvantage; such rolls are straight, not automatically advantaged. For other Stealth checks, the ordinary armor disadvantage still matters. Apply -5 to sight-based passive Perception where the disadvantage applies.",
+      "source": "Grim Hollow: Player Pack"
+    },
+    {
+      "name": "Archery / Sharpshooter / Piercer",
+      "description": "Bow attack +11, or +6 for optional -5/+10. Sharpshooter ignores half/three-quarters cover and long-range disadvantage, not total cover. Piercer permits one piercing damage-die reroll per turn and one extra weapon die on a piercing critical. Apply rerolls/extra critical dice manually.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Deft Explorer and Roving",
+      "description": "Optional Tasha replacements: Canny doubles Stealth proficiency and adds Elvish/Dwarvish. Roving at 6 adds 5 feet to walking and grants equal climb/swim speeds. These replace Natural Explorer rather than stacking its benefits.",
+      "source": "TCE"
+    },
+    {
+      "name": "Favored Foe",
+      "description": "Replaces Favored Enemy. On a hit, mark with no action; add 1d6 on the first hit against that target on each of your turns at Ranger 7. Three marks per long rest, each up to 1 minute with concentration. Cannot maintain with Pass without Trace, Spike Growth or Zephyr Strike. No extra Favored Enemy languages.",
+      "source": "TCE"
+    },
+    {
+      "name": "Primal Awareness / focus",
+      "description": "Replaces Primeval Awareness: Speak with Animals and Beast Sense are additional known spells, each free once per long rest or cast with slots. Ranger does not gain general ritual casting. Optional Spellcasting Focus allows the purchased totem for ranger spells.",
+      "source": "TCE"
+    },
+    {
+      "name": "Rustic Hospitality",
+      "description": "Folk Hero background: common folk may provide modest shelter and help you hide or recover, unless doing so would expose them to danger. No automatic combat allies, feat or ability increase.",
+      "source": "PHB 2014"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "+2 Longbow",
+      "to_hit": 11,
+      "kind": "Ranged",
+      "range": "150/600 ft.",
+      "damage": {
+        "dice": "1d8+6",
+        "type": "piercing"
+      },
+      "description": ""
+    },
+    {
+      "name": "+2 Longbow — Sharpshooter",
+      "to_hit": 6,
+      "kind": "Ranged",
+      "range": "150/600 ft.",
+      "damage": {
+        "dice": "1d8+16",
+        "type": "piercing"
+      },
+      "description": "Optional -5/+10."
+    },
+    {
+      "name": "Unacted target — Sharpshooter",
+      "to_hit": 6,
+      "kind": "Ranged",
+      "range": "150/600 ft.",
+      "damage": {
+        "dice": "1d8+2d6+16",
+        "type": "piercing"
+      },
+      "description": "Bugbear bonus only while this target has not taken its first combat turn."
+    },
+    {
+      "name": "Dread Ambusher + unacted target — SS",
+      "to_hit": 6,
+      "kind": "Ranged",
+      "range": "150/600 ft.",
+      "damage": {
+        "dice": "2d8+2d6+16",
+        "type": "piercing"
+      },
+      "description": "Use only for the first-turn EXTRA attack, and only before target's first turn. Other two shots do not get the extra d8."
+    },
+    {
+      "name": "Shortsword",
+      "to_hit": 7,
+      "kind": "Melee",
+      "range": "10 ft. on your turn, 5 ft. otherwise",
+      "damage": {
+        "dice": "1d6+4",
+        "type": "piercing"
+      },
+      "description": ""
+    }
+  ],
+  "equipment": [
+    {
+      "name": "+2 Longbow",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Rare allocation; magical, no attunement."
+    },
+    {
+      "name": "Carvaloth Scale Armor",
+      "quantity": 1,
+      "weight": 45,
+      "description": "Player Pack uncommon allocation, worn; no attunement. Preserve its camouflage AND normal armor disadvantage."
+    },
+    {
+      "name": "Leather Armor",
+      "quantity": 1,
+      "weight": 10,
+      "description": "Free starting armor; spare NOT worn."
+    },
+    {
+      "name": "Shortsword",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Free starting weapons."
+    },
+    {
+      "name": "Longbow",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Free mundane starting bow; backup."
+    },
+    {
+      "name": "Quiver",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free starting equipment."
+    },
+    {
+      "name": "Arrows (20)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free starting ammunition."
+    },
+    {
+      "name": "Explorer's Pack",
+      "quantity": 1,
+      "weight": 59,
+      "description": "Free starting pack, contents included in weight."
+    },
+    {
+      "name": "Folk Hero equipment",
+      "quantity": 1,
+      "weight": 24,
+      "description": "Carpenter's tools, shovel, iron pot, common clothes, pouch. Background 10 gp included in cash."
+    },
+    {
+      "name": "Arrows (20)",
+      "quantity": 4,
+      "weight": 1,
+      "description": "Purchased for 1 gp each (4 gp total). 80 additional; 100 arrows including starting ammunition."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased for 50 gp each (100 gp total). "
+    },
+    {
+      "name": "Antitoxin (vial)",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 50 gp each (50 gp total). "
+    },
+    {
+      "name": "Healer's Kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased for 5 gp each (5 gp total). "
+    },
+    {
+      "name": "Holy Water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Climber's Kit",
+      "quantity": 1,
+      "weight": 12,
+      "description": "Purchased for 25 gp each (25 gp total). "
+    },
+    {
+      "name": "Silk Rope (50 feet)",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 10 gp each (10 gp total). "
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased for 2 gp each (2 gp total). "
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 2 gp each (2 gp total). "
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Purchased for 1 gp each (2 gp total). "
+    },
+    {
+      "name": "Ball Bearings (bag of 1,000)",
+      "quantity": 2,
+      "weight": 2,
+      "description": "Purchased for 1 gp each (2 gp total). "
+    },
+    {
+      "name": "Totem",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 1 gp each (1 gp total). Druidic focus for optional Ranger Spellcasting Focus."
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 420,
+      "weight": 0.02,
+      "description": "420 gp remain. Set the gold counter; this row records the same money, not extra."
+    }
+  ],
+  "spellcasting": {
+    "ability": "wisdom",
+    "save_dc": 13,
+    "attack_bonus": 5,
+    "slots": {
+      "1": 4,
+      "2": 3
+    }
+  },
+  "spells": [
+    {
+      "name": "Goodberry",
+      "level": 1,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Create ten berries, each nourishing a creature for a day and restoring 1 HP when eaten using an action. Unused berries lose their magic after 24 hours. Eating a berry is not casting a slot spell and does not trigger Unicorn Spirit healing.",
+      "materials": "a sprig of mistletoe",
+      "prepared": true
+    },
+    {
+      "name": "Absorb Elements",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 reaction; when taking a listed elemental damage type",
+      "range": "Self",
+      "components": "S",
+      "duration": "1 round",
+      "description": "Reaction to acid, cold, fire, lightning or thunder damage: gain resistance to that triggering type until your next turn. Your first MELEE attack hit on that next turn adds 1d6 of the type, +1d6 per higher slot. It does not add damage to an arrow.",
+      "prepared": true
+    },
+    {
+      "name": "Zephyr Strike",
+      "level": 1,
+      "school": "transmutation",
+      "casting_time": "1 bonus action",
+      "range": "Self",
+      "components": "V",
+      "duration": "Up to 1 minute",
+      "description": "Bonus action and concentration: your movement does not provoke opportunity attacks. Once during its duration, give one weapon attack advantage; that attack adds 1d8 force on a hit and your walking speed rises 30 feet for that turn, hit or miss. Not advantage on every attack.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Pass without Trace",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "Up to 1 hour",
+      "description": "Concentration; you and chosen companions near you gain +10 Dexterity (Stealth) and leave no tracks except by magic. It does not make you automatically hidden, invisible, or silent.",
+      "materials": "ashes from a burned leaf of mistletoe and a sprig of spruce",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Spike Growth",
+      "level": 2,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "150 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 10 minutes",
+      "description": "A 20-foot-radius area becomes difficult terrain; a creature moving into/within takes 2d4 piercing per 5 feet. Forced movement also triggers damage if it actually moves the creature through the area. Concentration; use the full spell's terrain-camouflage rules.",
+      "materials": "seven sharp thorns or seven small twigs, each sharpened to a point",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Disguise Self",
+      "level": 1,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "1 hour",
+      "description": "Create a visual disguise. Physical contact can reveal it; an investigating creature checks against spell DC 13. Does not change your actual body or equipment.",
+      "prepared": true
+    },
+    {
+      "name": "Rope Trick",
+      "level": 2,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour",
+      "description": "Create a temporary extradimensional shelter accessible by climbing a rope; observe the full spell's creature-count and rope restrictions. Attacks and spells cannot cross its entrance. No concentration.",
+      "materials": "powdered corn extract and a twisted loop of parchment",
+      "prepared": true
+    },
+    {
+      "name": "Speak with Animals",
+      "level": 1,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S",
+      "duration": "10 minutes",
+      "description": "Ranger Primal Awareness: one free cast per long rest or use slots. Communicate with beasts for 10 minutes, limited by their intelligence. Ranger does not gain general ritual casting from this spell's tag.",
+      "ritual": false,
+      "prepared": true
+    },
+    {
+      "name": "Beast Sense",
+      "level": 2,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "S",
+      "duration": "Up to 1 hour",
+      "description": "Ranger Primal Awareness: one free cast per long rest or use slots. Touch a willing beast and use actions to perceive through its senses; your own sight/hearing are unavailable while doing so. Concentration. Ranger has no general ritual casting.",
+      "concentration": true,
+      "ritual": false,
+      "prepared": true
+    }
+  ]
+}
