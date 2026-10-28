@@ -1,0 +1,651 @@
+{
+  "schema_version": 1,
+  "type": "pc",
+  "name": "Rowan Ashveil, the Last Lantern",
+  "class": "Cleric",
+  "subclass": "Twilight Domain",
+  "level": 7,
+  "race": "Custom Lineage (Small humanoid)",
+  "background": "Rewarded (The Book of Many Things; Lucky)",
+  "alignment": "Neutral good",
+  "abilities": {
+    "strength": 12,
+    "dexterity": 14,
+    "constitution": 14,
+    "intelligence": 8,
+    "wisdom": 20,
+    "charisma": 10
+  },
+  "hp": {
+    "max": 52,
+    "current": 52,
+    "temp": 0
+  },
+  "ac": {
+    "value": 19,
+    "type": "Scale mail 14 + Dexterity 2 + shield 2 + attuned cloak 1"
+  },
+  "speed": "30 ft. (Steps of Night: fly 30 ft. for 1 minute, 3/long rest)",
+  "saving_throws": [
+    "wisdom",
+    "charisma",
+    "constitution"
+  ],
+  "skills": {
+    "medicine": "proficient",
+    "religion": "proficient",
+    "insight": "proficient",
+    "persuasion": "proficient",
+    "perception": "proficient"
+  },
+  "proficiency_bonus": 3,
+  "xp": 23000,
+  "languages": "Common, Elvish, Celestial",
+  "proficiencies": "All armor, shields, simple and martial weapons. Playing card set. Perception from Custom Lineage; Medicine and Religion from Cleric; Insight and Persuasion from Rewarded. Scale mail imposes disadvantage on Stealth.",
+  "bio": "Rowan Ashveil, the Last Lantern, is a small, dusk-eyed devotee of Selune who escorts travelers through dangerous nights. They survived a shipwreck by following a pale lantern no one else could see and now pay that good fortune forward. Quiet, stubbornly hopeful, and an excellent card player, Rowan views protection as a sacred promise rather than a heroic pose. Ideal: everyone deserves a light to follow home. Bond: find the stranger who carried the lantern. Flaw: risks too much to retrieve the last person left behind.\n\nBuilt only with the 2014 Cleric rules and pre-2024 expansions. Standard array and normal class/background gear assumed; 638 gp is additional. Final HP 52 and AC 19 are unbuffed apart from the two attuned items. No Aid, Death Ward, temporary HP or flight is active initially.\n\nIMPORT FOLLOW-UP: set remaining gold to 168 gp, add a global +1 saving throw modifier for the Cloak of Protection (including death saves), roll Stealth with disadvantage from scale mail, and use advantage on the next initiative roll after Vigilant Blessing. Spell DC 18, spell attacks +10 and AC 19 already include the magic items. See the companion build guide for final save totals and the shopping ledger.",
+  "traits": [
+    {
+      "name": "Build and ability-score audit",
+      "description": "2014 Cleric 7. Standard array: Str 12, Dex 14, Con 13, Int 8, Wis 15, Cha 10. Custom Lineage: +2 Wis. Lineage feat Telekinetic: +1 Wis. House-rule feat Resilient (Constitution): +1 Con. Level 4 ASI: +2 Wis. Final 12/14/14/8/20/10. Average HP: 8 + 6 times 5 + 7 times 2 = 52.",
+      "source": "Build"
+    },
+    {
+      "name": "Custom Lineage",
+      "description": "Small humanoid; walking speed 30 feet. Variable Trait grants Perception proficiency, NOT 60-foot darkvision; Twilight instead supplies 300-foot darkvision. Languages Common and Elvish. Telekinetic is the lineage feat, separate from the free house-rule feat.",
+      "source": "TCE p.8"
+    },
+    {
+      "name": "Telekinetic (Wisdom)",
+      "description": "Wisdom +1 already included. Know Mage Hand as an additional cantrip; it can be invisible and needs no verbal or somatic components. As a bonus action, move a visible creature within 30 feet 5 feet toward or away from you on a failed DC 16 Strength save; it may willingly fail. This is not a spell: the amulet does NOT raise this DC to 18. Forced movement does not provoke opportunity attacks.",
+      "source": "TCE p.81"
+    },
+    {
+      "name": "Resilient (Constitution) — house-rule feat",
+      "description": "Constitution +1 and Constitution save proficiency already included. With the attuned cloak, Constitution saves and concentration checks are +6. Without applying the cloak adjustment in Roll20 they display +5. Temporary HP do not eliminate concentration checks when taking damage.",
+      "source": "PHB 2014 p.168"
+    },
+    {
+      "name": "Rewarded background: Lucky",
+      "description": "Rewarded grants the 2014 Lucky feat, separate from the house-rule feat. Three luck points per long rest. For your attack, check or save, spend after rolling but before the outcome to roll another d20 and choose which to use. Can instead influence an attack made against you as described by Lucky. Save points for vital concentration, dangerous saves, or a critical attack against you.",
+      "source": "BMT p.57; PHB 2014 p.167"
+    },
+    {
+      "name": "Eyes of Night",
+      "description": "Darkvision 300 feet. As an action, share this darkvision with up to five willing creatures visible within 10 feet for 1 hour. Sharing is free once per long rest; additional uses cost a spell slot.",
+      "source": "TCE p.34"
+    },
+    {
+      "name": "Vigilant Blessing",
+      "description": "As an action, touch one creature, including yourself, granting advantage on its next initiative roll. Ends after that roll or when used again. Reapply to yourself between encounters. It is advantage, not a flat initiative bonus.",
+      "source": "TCE p.34"
+    },
+    {
+      "name": "Channel Divinity: Twilight Sanctuary",
+      "description": "Action; 30-foot-radius dim-light sphere centered on you for 1 minute, ending early if you become incapacitated or die. At each creature's turn end in the sphere, you may grant 1d6+7 temporary HP OR end one effect causing charm or fear. Choose allies. No concentration. Temporary HP do not add together; keep the old amount or replace it with the new result. Uses Channel Divinity.",
+      "source": "TCE p.34"
+    },
+    {
+      "name": "Channel Divinity and Turn Undead",
+      "description": "Two Channel Divinity uses per short or long rest, shared between features. Turn Undead is an action: undead within 30 feet that can see or hear you save Wisdom against your cleric spell DC or flee for up to 1 minute, ending on damage. Failed saves destroy undead CR 1/2 or lower. The amulet grants one additional Channel Divinity activation per dawn without spending a normal use.",
+      "source": "PHB 2014 pp.58-59"
+    },
+    {
+      "name": "Harness Divine Power (optional Tasha feature)",
+      "description": "Bonus action, expend one Channel Divinity use to recover an expended spell slot of level 1 or 2. At Cleric 7 this feature is limited to twice per long rest, in addition to the shared Channel Divinity cost. Use spare Channel Divinity before a short rest when a Sanctuary is not needed.",
+      "source": "TCE p.30"
+    },
+    {
+      "name": "Steps of Night",
+      "description": "Bonus action while in dim light or darkness: gain a 30-foot flying speed for 1 minute. Three uses per long rest, based on proficiency bonus, not Wisdom. No concentration. Costs the same bonus action needed for Telekinetic; cannot use both on one turn.",
+      "source": "TCE p.35"
+    },
+    {
+      "name": "Spellcasting and preparation",
+      "description": "Spell slots 4/3/3/1. Prepare 12 cleric spells after each long rest, plus 8 always-prepared Twilight domain spells. Four cleric cantrips plus the Telekinetic Mage Hand. Wisdom 20 and +2 amulet give spell attacks +10 and spell DC 18. Cleric rituals must be prepared; Tiny Hut is always prepared. Only one concentration spell at a time.",
+      "source": "PHB 2014; TCE"
+    },
+    {
+      "name": "+2 Amulet of the Devout — rare, attuned",
+      "description": "Worn holy symbol; requires cleric or paladin attunement. +2 spell attack rolls and spell save DCs, already included in this import. One Channel Divinity activation without expending a use per dawn. No bonus to damage, healing, Telekinetic DC, or Dispel Magic checks.",
+      "source": "TCE p.119"
+    },
+    {
+      "name": "Cloak of Protection — uncommon, attuned",
+      "description": "While worn and attuned, +1 AC and all saving throws, including death saves. AC 19 already includes it. AFTER IMPORT: enable a global saving throw modifier of +1 named Cloak of Protection, including death saves; do not add it twice. Final Str/Dex/Con/Int/Wis/Cha saves: +2/+3/+6/+0/+9/+4; death saves +1. Two of three attunement slots used.",
+      "source": "DMG 2014 p.159"
+    },
+    {
+      "name": "Equipment and hands",
+      "description": "Wield the shield and normally keep the other hand empty for somatic components and manipulating materials. The worn amulet is a holy symbol. Scale mail causes disadvantage on Stealth checks. Do not use the warhammer's versatile grip or light crossbow while wielding the shield.",
+      "source": "PHB 2014"
+    },
+    {
+      "name": "Gold and consumables",
+      "description": "Additional grant 638 gp plus Rewarded background 18 gp = 656 gp. Purchases cost 488 gp; 168 gp remain. After import enter 168 in the gold counter. Carried: one 300 gp Revivify diamond, two healing potions, one holy-water flask, one 25 gp Divination offering and one reusable 25 gp Augury token set. Standard class/background equipment is separate; no resale assumed.",
+      "source": "Equipment ledger"
+    },
+    {
+      "name": "Typical combat sequence",
+      "description": "Before combat: Vigilant Blessing. Hard fight: action Twilight Sanctuary and position to cover allies. Next turn cast Spirit Guardians (normally 3rd, or 4th for 4d8) and use Telekinetic if an enemy can be pulled into its area. Later Dodge while concentrating, and use Telekinetic, Healing Word or flight as needed. Damage triggers use 2014 entry/turn-start timing; do not sweep the aura over enemies for extra damage.",
+      "source": "Tactics"
+    }
+  ],
+  "attacks": [
+    {
+      "name": "Spiritual Weapon (2nd/3rd-level slot)",
+      "to_hit": 10,
+      "kind": "Melee",
+      "range": "Weapon created within 60 ft.; attacks within 5 ft. of weapon",
+      "damage": {
+        "dice": "1d8+5",
+        "type": "force"
+      },
+      "description": "Cast Spiritual Weapon first. Bonus-action spell attack; later bonus actions move it 20 ft. and attack. No concentration under 2014 rules. Amulet +2 affects to-hit, not damage."
+    },
+    {
+      "name": "Dagger",
+      "to_hit": 5,
+      "kind": "Melee",
+      "range": "5 ft. or thrown 20/60 ft.",
+      "damage": {
+        "dice": "1d4+2",
+        "type": "piercing"
+      },
+      "description": "Normally stowed to leave a hand free for spellcasting."
+    },
+    {
+      "name": "Warhammer (one-handed)",
+      "to_hit": 4,
+      "kind": "Melee",
+      "range": "5 ft.",
+      "damage": {
+        "dice": "1d8+1",
+        "type": "bludgeoning"
+      },
+      "description": "Backup attack; normally stowed. No Divine Strike until Cleric 8."
+    },
+    {
+      "name": "Light crossbow (shield must be doffed)",
+      "to_hit": 5,
+      "kind": "Ranged",
+      "range": "80/320 ft.",
+      "damage": {
+        "dice": "1d8+2",
+        "type": "piercing"
+      },
+      "description": "Two-handed, loading. Doff shield first using an action; AC becomes 17 while it is not wielded. Restore AC 19 when the shield is wielded again."
+    }
+  ],
+  "equipment": [
+    {
+      "name": "+2 Amulet of the Devout",
+      "quantity": 1,
+      "weight": 1,
+      "description": "RARE allocation. Attuned; worn holy symbol. +2 spell attacks/DC already included; extra Channel Divinity once per dawn. TCE p.119."
+    },
+    {
+      "name": "Cloak of Protection",
+      "quantity": 1,
+      "weight": 0,
+      "description": "UNCOMMON allocation. Attuned. +1 AC included; apply global +1 saving throw modifier after import, including death saves. DMG 2014 p.159."
+    },
+    {
+      "name": "Scale mail",
+      "quantity": 1,
+      "weight": 45,
+      "description": "Free cleric starting equipment. AC 14 + Dex (maximum 2). Disadvantage on Stealth. No Strength speed requirement."
+    },
+    {
+      "name": "Shield",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Free cleric starting equipment; wielded. +2 AC already included."
+    },
+    {
+      "name": "Warhammer",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Free cleric starting equipment, permitted by Twilight martial proficiency. Normally stowed. One-handed attack row preserves shield AC."
+    },
+    {
+      "name": "Light crossbow",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Free cleric starting equipment. Two-handed, loading; cannot use while wielding the shield."
+    },
+    {
+      "name": "Crossbow bolts",
+      "quantity": 20,
+      "weight": 0.075,
+      "description": "Free cleric starting ammunition; 20 bolts."
+    },
+    {
+      "name": "Explorer's pack",
+      "quantity": 1,
+      "weight": 59,
+      "description": "Free cleric starting equipment: backpack, bedroll, mess kit, tinderbox, 10 torches, 10 days of rations, waterskin and 50 feet of hempen rope. Contents included in this weight; do not add them again."
+    },
+    {
+      "name": "Mundane holy symbol",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Free cleric starting holy symbol; backup if separated from the magic amulet."
+    },
+    {
+      "name": "Rewarded background equipment",
+      "quantity": 1,
+      "weight": 7,
+      "description": "Bottle of black ink, ink pen, 5 sheets of paper, playing cards, signet ring, fine clothes and pouch. Background 18 gp is already counted in the remaining 168 gp."
+    },
+    {
+      "name": "Diamond worth 300 gp",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 300 gp. Consumed by one Revivify. Keep accessible."
+    },
+    {
+      "name": "Augury marked tokens worth 25 gp",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 25 gp; reusable material. Augury is not on the default prepared list."
+    },
+    {
+      "name": "Divination incense and offering worth 25 gp",
+      "quantity": 1,
+      "weight": 0,
+      "description": "Purchased for 25 gp; consumed by one Divination. Not on the default prepared list."
+    },
+    {
+      "name": "Potion of Healing",
+      "quantity": 2,
+      "weight": 0.5,
+      "description": "Purchased at 50 gp each, total 100 gp. Each heals 2d4+2 HP. Under 2014 rules drinking or administering uses an action. Carry where an ally can find them."
+    },
+    {
+      "name": "Holy water (flask)",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased for 25 gp. Reserve for consumed Protection from Evil and Good material; no focus substitution. Conservatively budget one flask for one cast."
+    },
+    {
+      "name": "Healer's kit",
+      "quantity": 1,
+      "weight": 3,
+      "description": "Purchased for 5 gp; 10 uses. Action to stabilize a creature at 0 HP without a Medicine check."
+    },
+    {
+      "name": "Manacles",
+      "quantity": 1,
+      "weight": 6,
+      "description": "Purchased for 2 gp, includes one key. Nonlethal capture and practical utility."
+    },
+    {
+      "name": "Caltrops (bag of 20)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased for 1 gp. Use PHB 2014 rules, not a 2024 equipment save DC."
+    },
+    {
+      "name": "Ball bearings (bag of 1,000)",
+      "quantity": 1,
+      "weight": 2,
+      "description": "Purchased for 1 gp. Use PHB 2014 rules."
+    },
+    {
+      "name": "Crowbar",
+      "quantity": 1,
+      "weight": 5,
+      "description": "Purchased for 2 gp; advantage on applicable Strength checks using its leverage."
+    },
+    {
+      "name": "Dagger",
+      "quantity": 1,
+      "weight": 1,
+      "description": "Purchased for 2 gp. Finesse and thrown 20/60 feet."
+    },
+    {
+      "name": "Gold coins",
+      "quantity": 168,
+      "weight": 0.02,
+      "description": "Remaining money, 168 gp. Also enter 168 in the sheet gold counter; this inventory row is bookkeeping, not additional gold."
+    }
+  ],
+  "spellcasting": {
+    "ability": "wisdom",
+    "save_dc": 18,
+    "attack_bonus": 10,
+    "slots": {
+      "1": 4,
+      "2": 3,
+      "3": 3,
+      "4": 1
+    }
+  },
+  "spells": [
+    {
+      "name": "Guidance",
+      "level": 0,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Up to 1 minute",
+      "description": "Cleric cantrip. Touch a willing creature; it can add 1d4 to one ability check before the spell ends. Concentration; cannot maintain this with Spirit Guardians.",
+      "concentration": true
+    },
+    {
+      "name": "Sacred Flame",
+      "level": 0,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Cleric cantrip. One visible creature makes a DC 18 Dexterity save, taking 2d8 radiant on a failure and none on success. The target gains no benefit from cover for this save."
+    },
+    {
+      "name": "Toll the Dead",
+      "level": 0,
+      "school": "necromancy",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Cleric cantrip, Xanathar's Guide. One visible creature makes a DC 18 Wisdom save. On a failure it takes 2d8 necrotic, or 2d12 if it is missing any hit points. No damage on success."
+    },
+    {
+      "name": "Thaumaturgy",
+      "level": 0,
+      "school": "transmutation",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V",
+      "duration": "1 minute",
+      "description": "Cleric cantrip. Create a harmless supernatural sign, such as a booming voice, flickering flames, ground tremors, a brief sound, opening an unlocked door, or altered eye appearance. Up to three minute-long effects can coexist."
+    },
+    {
+      "name": "Mage Hand",
+      "level": 0,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "",
+      "duration": "1 minute",
+      "description": "Granted by Telekinetic, separate from the four cleric cantrips. Cast without verbal or somatic components; the hand may be invisible. Use an action to move it up to 30 feet and manipulate objects. It cannot attack, activate magic items, or carry more than 10 pounds."
+    },
+    {
+      "name": "Bless",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 minute",
+      "description": "Prepared cleric spell. Up to three creatures add 1d4 to attacks and saving throws. Concentration; use instead of Spirit Guardians when distance, damage resistance or party composition makes it better.",
+      "materials": "a sprinkling of holy water",
+      "concentration": true,
+      "prepared": true,
+      "higher_levels": "Add one target per slot level above 1st."
+    },
+    {
+      "name": "Healing Word",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 bonus action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Instantaneous",
+      "description": "Prepared cleric spell. A visible creature regains 1d4+5 HP. Does not heal undead or constructs. Uses a bonus action. Under 2014 bonus-action spell rules, the only other spell you may cast this turn is a cantrip with a casting time of one action.",
+      "prepared": true,
+      "higher_levels": "Add 1d4 healing per slot level above 1st; Wisdom is added once, and the amulet adds no healing."
+    },
+    {
+      "name": "Sanctuary",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 bonus action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "1 minute",
+      "description": "Prepared cleric spell. Attacks and harmful targeted spells against the warded creature require a DC 18 Wisdom save or the attacker must choose another target or lose that attack/spell. Does not stop areas. The ward ends if the protected creature attacks, casts a spell affecting an enemy, or deals damage, including ongoing Spirit Guardians damage.",
+      "materials": "a small silver mirror",
+      "prepared": true
+    },
+    {
+      "name": "Protection from Evil and Good",
+      "level": 1,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Up to 10 minutes",
+      "description": "Prepared cleric spell. A willing creature gains protection against aberrations, celestials, elementals, fey, fiends and undead: their attacks have disadvantage, and they cannot charm, frighten or possess the target. Existing such effects grant advantage on new saves. Consumes holy water or powdered silver and iron; a focus cannot replace consumed material.",
+      "materials": "holy water or powdered silver and iron, which the spell consumes",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Aid",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "30 ft.",
+      "components": "V, S, M",
+      "duration": "8 hours",
+      "description": "Prepared cleric spell. Increase both current and maximum HP of up to three creatures by 5 for 8 hours; not temporary HP, so it combines with Twilight Sanctuary. These bonuses have not been applied to this sheet. No concentration.",
+      "materials": "a tiny strip of white cloth",
+      "prepared": true,
+      "higher_levels": "Add 5 current and maximum HP per slot level above 2nd. A 3rd-level slot gives +10; a 4th-level slot gives +15."
+    },
+    {
+      "name": "Lesser Restoration",
+      "level": 2,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Prepared cleric spell. Touch a creature and end one disease or one instance of blindness, deafness, paralysis or poisoning.",
+      "prepared": true
+    },
+    {
+      "name": "Spiritual Weapon",
+      "level": 2,
+      "school": "evocation",
+      "casting_time": "1 bonus action",
+      "range": "60 ft.",
+      "components": "V, S",
+      "duration": "1 minute",
+      "description": "Prepared cleric spell, 2014 version: no concentration. Create the weapon within 60 feet and make a melee spell attack at +10, dealing 1d8+5 force. Later bonus actions move it up to 20 feet and attack a creature within 5 feet of it. Competes with Telekinetic and Healing Word for the bonus action. Use its attack row for the roll.",
+      "prepared": true,
+      "higher_levels": "Add 1d8 damage per TWO slot levels above 2nd. A 4th-level slot deals 2d8+5."
+    },
+    {
+      "name": "Spirit Guardians",
+      "level": 3,
+      "school": "conjuration",
+      "casting_time": "1 action",
+      "range": "Self (15-foot radius)",
+      "components": "V, S, M",
+      "duration": "Up to 10 minutes",
+      "description": "Prepared cleric spell, 2014 version. Visible allies designated when casting are excluded. Affected creatures have halved speed in the 15-foot area. A creature first entering on a turn, or starting its turn inside, makes a DC 18 Wisdom save: 3d8 radiant on a failure, half on success. Merely moving the aura over a creature does not trigger damage. A successful Telekinetic pull from outside into the area can trigger entry damage; its turn-start is a separate trigger. No automatic damage on casting. Concentration.",
+      "materials": "a holy symbol",
+      "concentration": true,
+      "prepared": true,
+      "higher_levels": "Add 1d8 per slot level above 3rd; the available 4th-level slot deals 4d8 radiant."
+    },
+    {
+      "name": "Dispel Magic",
+      "level": 3,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S",
+      "duration": "Instantaneous",
+      "description": "Prepared cleric spell. End spells of level 3 or lower on the chosen creature, object or magical effect. For each higher-level spell, make a Wisdom ability check at +5 against DC 10 + spell level. The amulet does not increase this ability check.",
+      "prepared": true,
+      "higher_levels": "Automatically end spells whose level is no higher than the slot used; check higher-level spells."
+    },
+    {
+      "name": "Revivify",
+      "level": 3,
+      "school": "necromancy",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Prepared cleric spell. Touch a creature dead no longer than 1 minute; it returns with 1 HP. Cannot undo death from old age or restore missing body parts. Consumes diamonds worth 300 gp. One diamond is carried; after using it this spell needs replacement material.",
+      "materials": "diamonds worth 300 gp, which the spell consumes",
+      "prepared": true
+    },
+    {
+      "name": "Death Ward",
+      "level": 4,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "8 hours",
+      "description": "Prepared cleric spell. The first damage that would reduce the target to 0 HP instead leaves it at 1 HP, then the spell ends. It can instead negate one instant-death effect that deals no damage. No concentration.",
+      "prepared": true
+    },
+    {
+      "name": "Freedom of Movement",
+      "level": 4,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S, M",
+      "duration": "1 hour",
+      "description": "Prepared cleric spell. For 1 hour, the target ignores difficult terrain, and magic cannot reduce its speed or paralyze or restrain it. Spend 5 feet of movement to escape nonmagical restraints or grapples. Underwater movement and attacks suffer no underwater penalties. No concentration.",
+      "materials": "a leather strap, bound around the arm or a similar appendage",
+      "prepared": true
+    },
+    {
+      "name": "Faerie Fire",
+      "level": 1,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "60 ft.",
+      "components": "V",
+      "duration": "Up to 1 minute",
+      "description": "Always prepared Twilight domain spell. Objects and creatures in a 20-foot cube are outlined; creatures can resist with a DC 18 Dexterity save. Attacks against affected targets have advantage if the attacker can see them, and the targets gain no benefit from invisibility. Concentration.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Sleep",
+      "level": 1,
+      "school": "enchantment",
+      "casting_time": "1 action",
+      "range": "90 ft.",
+      "components": "V, S, M",
+      "duration": "1 minute",
+      "description": "Always prepared Twilight domain spell, 2014 version. Roll 5d8; creatures within 20 feet of a point are affected in ascending order of current HP, skipping unconscious creatures. Each affected creature falls unconscious until damage or an action to wake it. Undead and charm-immune creatures are unaffected. No saving throw and no concentration.",
+      "materials": "a pinch of fine sand, rose petals, or a cricket",
+      "prepared": true,
+      "higher_levels": "Add 2d8 to the affected HP pool per slot level above 1st."
+    },
+    {
+      "name": "Moonbeam",
+      "level": 2,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "120 ft.",
+      "components": "V, S, M",
+      "duration": "Up to 1 minute",
+      "description": "Always prepared Twilight domain spell. A 5-foot-radius, 40-foot-high cylinder appears within range. Entering for the first time on a turn or starting a turn inside causes a DC 18 Constitution save: 2d10 radiant on failure, half on success. Shapechangers save with disadvantage and revert on failure. Use an action on later turns to move the beam up to 60 feet. Concentration; cannot combine with Spirit Guardians.",
+      "materials": "several seeds of any moonseed plant and a piece of opalescent feldspar",
+      "concentration": true,
+      "prepared": true,
+      "higher_levels": "Add 1d10 radiant per slot level above 2nd."
+    },
+    {
+      "name": "See Invisibility",
+      "level": 2,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "1 hour",
+      "description": "Always prepared Twilight domain spell. For 1 hour, see invisible creatures and objects as visible and see into the Ethereal Plane out to 60 feet. No concentration.",
+      "materials": "a pinch of talc and a small sprinkling of powdered silver",
+      "prepared": true
+    },
+    {
+      "name": "Aura of Vitality",
+      "level": 3,
+      "school": "evocation",
+      "casting_time": "1 action",
+      "range": "Self (30-foot radius)",
+      "components": "V",
+      "duration": "Up to 1 minute",
+      "description": "Always prepared Twilight domain spell. For up to 1 minute, use a bonus action each turn to heal one creature in the 30-foot aura for 2d6 HP. Up to ten applications average 70 healing across the full minute. Excellent after combat. Concentration; replaces Spirit Guardians.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Leomund's Tiny Hut",
+      "level": 3,
+      "school": "evocation",
+      "casting_time": "1 minute",
+      "range": "Self (10-foot-radius hemisphere)",
+      "components": "V, S, M",
+      "duration": "8 hours",
+      "description": "Always prepared Twilight domain ritual. Create a stationary 10-foot-radius protective dome with a comfortable interior. Creatures and objects inside when cast may pass through; others cannot. Spells and magical effects cannot pass through. The spell ends if you leave. Takes 11 minutes as a ritual, no concentration. Check the full spell for occupancy and size restrictions.",
+      "materials": "a small crystal bead",
+      "ritual": true,
+      "prepared": true
+    },
+    {
+      "name": "Aura of Life",
+      "level": 4,
+      "school": "abjuration",
+      "casting_time": "1 action",
+      "range": "Self (30-foot radius)",
+      "components": "V",
+      "duration": "Up to 10 minutes",
+      "description": "Always prepared Twilight domain spell. Nonhostile creatures in the 30-foot aura resist necrotic damage, cannot have their HP maximum reduced, and regain 1 HP if they start their turn there at 0 HP. Concentration; use for specialized undead threats instead of Spirit Guardians.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Greater Invisibility",
+      "level": 4,
+      "school": "illusion",
+      "casting_time": "1 action",
+      "range": "Touch",
+      "components": "V, S",
+      "duration": "Up to 1 minute",
+      "description": "Always prepared Twilight domain spell. A touched creature and its worn/carried gear become invisible for up to 1 minute, remaining invisible while attacking or casting. Concentration; cannot combine with Spirit Guardians.",
+      "concentration": true,
+      "prepared": true
+    },
+    {
+      "name": "Augury",
+      "level": 2,
+      "school": "divination",
+      "casting_time": "1 minute",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Available cleric ritual, NOT on the default prepared list. Prepare after a long rest before casting. Ask whether a planned course within the next 30 minutes brings good or bad results. Repeated castings before a long rest risk misleading omens. Reusable marked tokens worth 25 gp are carried.",
+      "materials": "specially marked sticks, bones, or similar tokens worth at least 25 gp",
+      "ritual": true,
+      "prepared": false
+    },
+    {
+      "name": "Divination",
+      "level": 4,
+      "school": "divination",
+      "casting_time": "1 action",
+      "range": "Self",
+      "components": "V, S, M",
+      "duration": "Instantaneous",
+      "description": "Available cleric ritual, NOT on the default prepared list. Prepare after a long rest before casting. Ask a deity one question about an event, goal or activity within 7 days. Repeated castings before a long rest risk misleading answers. One 25 gp incense/offering set is carried and consumed when used.",
+      "materials": "incense and a sacrificial offering appropriate to your religion, together worth at least 25 gp, which the spell consumes",
+      "ritual": true,
+      "prepared": false
+    }
+  ]
+}
